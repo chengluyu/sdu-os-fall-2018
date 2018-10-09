@@ -9,4 +9,4 @@ This is the official repository of Operating System course of Taishan College. T
 
 ## Submission Guide
 
-You need fork this repoistory and [keep it up to date](https://help.github.com/articles/syncing-a-fork/). To submit files, you should first commit your files to your fork then create a pull requests.
+You need fork this repoistory and [keep it up to date](https://help.github.com/articles/syncing-a-fork/). To submit files, you should first commit your files to your fork then create a pull request.
