@@ -13,7 +13,7 @@ You need fork this repoistory and [keep it up to date](https://help.github.com/a
 
 ### How to Submit Work Progress
 
-Create a markdown file in `progress` folder. For the sake of anonymity, **the filename should be same as your GitHub ID**. And append your work progress **weekly** since National Holiday.
+Create a markdown file in `progress` folder. For the sake of anonymity, **the filename should be same as your GitHub ID**. You **must** append your work progress **weekly** since National Holiday **until the final presentation**. Your submission will influence your final grade.
 
 ## Members
 
