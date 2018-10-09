@@ -11,6 +11,10 @@ This is the official repository of Operating System course of Taishan College. T
 
 You need fork this repoistory and [keep it up to date](https://help.github.com/articles/syncing-a-fork/). To submit files, you should first commit your files to your fork then create a pull request.
 
+### How to Submit Work Progress
+
+Create a markdown file in `progress` folder. For the sake of anonymity, **the filename should be same as your GitHub ID**. And append your work progress **weekly** since National Holiday.
+
 ## Members
 
 Here list all participants (real names hidden) of this course.
