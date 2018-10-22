@@ -15,3 +15,18 @@ The source files involved are as follows:
 * block_dev.c
 * hd.c
 
+## 6th Week
+
+### Conclusion
+* Initially determined design plan.
+* Read the source code mentioned last week, determine the data structure to be visualized 
+* Based on the work of the seniors last year, a temporary experimental environment was set up to confirm the authenticity of our design
+* Part of the data was collected for drawing and display
+* Draw pictures of our basic module,including the overall presentation of the file system and create, write and close files
+
+### Next step
+* Rebuild an experimental platform for better data collection 
+* Extend the base module
+	* Such as the buffer and inode sections 
+	* Exploring how the file system works when accessing other types of files because we currently only consider ordinary files
+* Maybe we should start to consider the tool for the final presentation 
