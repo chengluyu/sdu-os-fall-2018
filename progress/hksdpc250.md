@@ -18,3 +18,9 @@ Successfully set up work environment using VMWare.
 (OpenSUSE Tumbleweed+LXQt+gcc8+Bochs+Qt Designer)
 
 Shared work environment to partner, ensuring predictable result.
+
+## Week7
+
+Initial work of gdb output.
+
+Will now writting the code of the gdb output filter.

@@ -1,8 +1,18 @@
 # 5th week process
-* 配置bochs环境
+* 尝试bochs、qemu环境，最终决定使用qemu环境的Linux 0.11 Lab
+
 * 阅读bootsect.S, head.s, setup.S源码
+
 ----
 # 6th week process
 * 阅读代码sched.c, sched.h, signal.h，分析进程调度算法
+
 * 小组讨论把任务分为进程初始化，进程创建，进程切换，进程终止，进程间通信以及可视化六部分
+
 * 确定用log导出json格式的数据，用PyQt处理数据实现可视化
+
+------
+# 7th week process
+* 在数据输出方面，用log函数输出了进程切换时进程块的信息，但是还没有决定最终可视化时显示信息的哪一部分。
+
+* 配置PyQt环境，设计在进程有事件发生时的总的进程状态图。                                                           
