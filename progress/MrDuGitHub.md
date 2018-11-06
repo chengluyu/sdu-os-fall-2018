@@ -41,3 +41,15 @@ The source files involved are listed as follows:
 ### Next step
 * Unfinished part of the plan last week
 * Data collection
+
+
+## 8th Week
+
+###	Conclusion
+* Collect data of create file and open file
+* Try the processing and cocos2d for Visualization
+* Design the corresponding scene based on the extracted data
+
+### Next step
+* Data collection
+* Visualization
