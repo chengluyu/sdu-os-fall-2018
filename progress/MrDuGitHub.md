@@ -7,7 +7,7 @@
 In this week, we read the chapter on the file system carefully in the book *A Heavily Commented Linux Kernal Source Code--Linux Version 0.11*.  
 We figure out how a file was created and closed in the Linux 0.11, and tracked the function call in this process. The same things were done with the write and save operation. We are basically clear about the data structures required for visualization in the source code.  
 Next week we will read the source code at a deeper level, detailing the events we will visualize and the various elements in them, and present them in the form of drawings.  
-The source files involved are as follows:  
+The source files involved are listed as follows:  
 
 * open.c
 * namei.c
@@ -30,3 +30,14 @@ The source files involved are as follows:
 	* Such as the buffer and inode sections 
 	* Exploring how the file system works when accessing other types of files because we currently only consider ordinary files
 * Maybe we should start to consider the tool for the final presentation 
+
+## 7th Week
+
+###	Conclusion
+* Rebuild the experimental platform to support vi
+* Try and add a system call for fixing some bugs 
+* Data collection
+
+### Next step
+* Unfinished part of the plan last week
+* Data collection
