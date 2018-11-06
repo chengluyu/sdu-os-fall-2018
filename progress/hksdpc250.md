@@ -21,6 +21,14 @@ Shared work environment to partner, ensuring predictable result.
 
 ## Week7
 
+Come out a data extraction method using gdb debugger.
+
 Initial work of gdb output.
 
 Will now writting the code of the gdb output filter.
+
+## Week8
+
+Complete the data extraction tools. Pack it into a VMWare virtual machine.
+
+Now we are discussing which and what part of debugging infomation should be extracetd.
