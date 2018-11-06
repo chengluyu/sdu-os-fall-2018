@@ -21,3 +21,11 @@ In this week,
 1. 继续阅读**Linux 0.11/0.12/0.99.15**内存管理部分代码
 2. 初步实现**Logger**框架
 3. 解决**rm not owner**问题：反汇编**rm**，发现Linux 0.11缺少系统调用**lstat**。“实现”**lstat**，问题解决。
+
+## 8th Week
+
+In this week
+
+1. 继续完善**Logger**框架
+2. 开始试用**Cocos2d**写可视化部分
+3. 移植**Swap**
