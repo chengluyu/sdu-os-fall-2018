@@ -53,3 +53,12 @@ The source files involved are listed as follows:
 ### Next step
 * Data collection
 * Visualization
+
+## 9th Week
+
+###	Conclusion
+* Rebuild the code repository with branches;create the basic branch for the next data extraction;create the close and write branches
+* Confirme the processing as a visualization tool and learned its basic usage.
+
+### Next step
+* Visualization
