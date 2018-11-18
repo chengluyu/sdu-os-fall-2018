@@ -1,0 +1,87 @@
+\documentclass{ctexart}
+\usepackage{listings}
+\usepackage{xcolor}
+\title{操作系统课程设计实验报告}
+\author{宋振华}
+\begin{document}
+\maketitle
+\section{简述}
+\section{阅读源码}
+\subsection{各部分功能}
+\section{选择可视化模块}
+\section{提取数据}
+\subsection{提取什么数据}
+\subsection{提取数据方式}
+\subsection{提取数据细节}
+对于使用gdb脚本调试, 应当注意以下几个方面:
+\subsubsection{添加断点}
+\paragraph{断点不宜太多}在gdb脚本中, 不能一次性添加太多断点, 否则会严重影响执行速度. 原因如下:
+\begin{enumerate}
+	\item 频繁执行gdb脚本, 耗费大量时间在gdb输出, 保存断点等方面;
+	\subitem 举例来说, console.c中的所有函数, 在系统启动时, 总计被调用了5000多次.
+	\subitem 如果在诸多函数添加断点, 系统启动过程, 断点可能被执行到几十万次.
+	\item 在执行gdb脚本时, bochs虚拟机时钟滴答应该并没有停止, 这会引起大量的时钟中断, 从而导致linux0.11大量时间片轮转操作.
+\end{enumerate}
+\subparagraph{解决方案}
+如果需要大量记录数据, 可以将大量断点分成若干批次, 每次执行只加入其中一部分断点. 
+
+优点: 可以极大减少gdb调试引起的linux0.11时间片轮转操作, 使gdb调试过程更接近于正常启动过程.
+
+缺点: 不能完全保证两次执行操作完全相同, (如时钟中断时机不一定完全相同).
+
+相比而言, 由于linux具有很好的模块性, 各模块之间耦合性较低, 分别调试问题不大.
+
+\paragraph{加断点需谨慎}
+
+在linux0.11中, 有些函数执行极其频繁, 如sched.c中void schedule(void)函数(该函数用于时间片轮转). 如需要gdb连续地执行代码(区别与单步调试), 这些函数会频繁被执行, 从而严重影响速度. 原因同上.
+
+\paragraph{汇编语言添加断点}
+汇编语言中定义的函数, 类似于这样:
+\begin{lstlisting}
+keyboard_interrupt:
+	pushl %eax
+	pushl %ebx
+	pushl %ecx
+	pushl %edx
+	push %ds
+	push %es
+	movl $0x10,%eax
+	mov %ax,%ds
+	mov %ax,%es
+	xor %al,%al		/* %eax is scan code */
+	inb $0x60,%al
+	cmpb $0xe0,%al
+\end{lstlisting}
+其中keyboard\_interrupt为函数入口, 随后几条pushl等语句, 为函数参数初始化过程. gdb单步调试, 会将函数初始化过程一步完成, 从而不会在参数初始化过程停留.
+
+因此, 在pushl \%eax这一条语句上添加断点, 是不会被执行到的.
+
+\subparagraph{解决方案}
+使用gdb图形化工具, 在汇编语言函数入口处, 多设几个断点, 观察会在哪里暂停. 会暂停的位置, 可以在gdb脚本中设为断点.
+
+\subsection{关于Makefile}
+\paragraph{及时清理生成代码}
+代码生成过程会有许多中间文件, 不要将中间文件错误地当做源代码文件. 如kernel/chr\_drv/kb.S(源代码)和keyboard.s(中间代码).
+
+亲测在keyboard.s中添加断点, 会输出很多奇怪的东西.
+\subparagraph{解决方案}
+及时执行make distclean操作, 清除中间文件. 
+
+\subsection{提取数据脚本}
+\subsubsection{gdb脚本技巧}
+\begin{enumerate}
+	\item gdb脚本可以添加函数, 以简化代码;
+	\item gdb脚本source语句可以导入别的gdb脚本, 类似于C语言的\#include语句.
+	\item gdb脚本中set定义的变量, 是全局变量;
+	\item 在bochs环境中, gdb脚本某一处出现bug, 可能导致bochs退出. 建议对gdb脚本做好备份.
+\end{enumerate}
+
+\section{可视化方案}
+\subsection{编程语言}
+可视化展示界面使用HTML5+JavaScript+CSS. 优点: 设计界面较为快捷.
+\subsection{界面设计}
+\section{最终效果}
+\section{感想}
+\subsection{收获}
+\subsection{对课程的建议}
+\end{document}
