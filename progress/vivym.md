@@ -29,3 +29,16 @@ In this week
 1. 继续完善**Logger**框架
 2. 开始试用**Cocos2d**写可视化部分
 3. 移植**Swap**
+
+## 9th Week
+
+In this week
+
+1. 写可视化部分
+2. 移植**Swap**
+
+## 10th Week
+
+In this week
+
+1. 提取数据
