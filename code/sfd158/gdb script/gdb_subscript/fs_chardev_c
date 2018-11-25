@@ -1,0 +1,72 @@
+#===========char_dev.c=================================
+#static int rw_ttyx(int rw,unsigned minor,char * buf,int count,off_t * pos)
+break char_dev.c:21
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+#static int rw_tty(int rw,unsigned minor,char * buf,int count, off_t * pos)
+break char_dev.c:27
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+#static int rw_ram(int rw,char * buf, int count, off_t *pos)
+break char_dev.c:34
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+#static int rw_mem(int rw,char * buf, int count, off_t *pos)
+break char_dev.c:39
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+#static int rw_kmem(int rw,char * buf, int count, off_t *pos)
+break char_dev.c:44
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+#static int rw_port(int rw,char * buf, int count, off_t * pos)
+break char_dev.c:49
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+#static int rw_memory(int rw, unsigned minor, char * buf, int count, off_t * pos)
+break char_dev.c:65
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+#int rw_char(int rw,int dev, char * buf, int count, off_t * pos)
+break char_dev.c:95
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

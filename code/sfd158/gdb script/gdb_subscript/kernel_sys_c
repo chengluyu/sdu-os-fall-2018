@@ -1,0 +1,216 @@
+#===========sys.c=================================
+#int sys_ftime()
+break sys.c:17
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_break()
+break sys.c:22
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_ptrace()
+break sys.c:27
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_stty()
+break sys.c:31
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_gtty()
+break sys.c:37
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_rename()
+break sys.c:42
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_prof()
+break sys.c:47
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_setregid(int rgid, int egid)
+break sys.c:52
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_setgid(int gid)
+break sys.c:73
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_acct()
+break sys.c:78
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+break sys.c:83
+  comm
+    #int sys_phys()
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_lock()
+break sys.c:88
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_mpx()
+break sys.c:93
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_ulimit()
+break sys.c:98
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_time(long *tloc)
+break sys.c:103
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_setreuid(int ruid, int euid)
+break sys.c:119
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_setuid(int uid))
+break sys.c:144
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_stime(long *tptr)
+break sys.c:149
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_times(struct tms * tbuf)
+break sys.c:157
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_setpgid(int pid, int pgid)
+break sys.c:182
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_getpgrp(void)
+break sys.c:202
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_setsid(void)
+break sys.c:207
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_uname(struct utsname * name)
+break sys.c:217
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#int sys_umask(int mask)
+break sys.c:231
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end

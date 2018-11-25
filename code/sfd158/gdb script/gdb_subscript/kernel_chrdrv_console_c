@@ -1,0 +1,234 @@
+#===========console.c=================================
+##static void gotoxy(unsigned int new_x,unsigned int ney_y)
+#break chr_drv/console.c:89
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+##static inline void set_origin(void)
+#break chr_drv/console.c:98
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+#static void scrup(void)
+#break chr_drv/console.c:108
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+##static void scrdown(void)
+#break chr_drv/console.c:171
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+##static void lf(void)
+#break chr_drv/console.c:205
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+##static void ri(void)
+#break chr_drv/console.c:215
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+##static void cr(void)
+#break chr_drv/console.c:225
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+##static void del(void)
+#break chr_drv/console.c:231
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void csi_J(int par)
+#break chr_drv/console.c:240
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void csi_K(int par)
+#break chr_drv/console.c:269
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void csi_m(void)
+#break chr_drv/console.c:300
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+#static inline void set_cursor(void)
+#break chr_drv/console.c:314
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+#static inline void respond(struct tty_struct * tty)
+#break chr_drv/console.c:324
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void insert_char(void)
+#break chr_drv/console.c:337
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void insert_line(void)
+#break chr_drv/console.c:351
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void delete_char(void)
+#break chr_drv/console.c:364
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void delete_line(void)
+#break chr_drv/console.c:378
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void csi_at(unsigned int nr)
+#break chr_drv/console.c:392
+#  comm
+#   print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void csi_L(unsigned int nr)
+break chr_drv/console.c:402
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static void csi_P(unsigned int nr)
+#break chr_drv/console.c:412
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void csi_M(unsigned int nr)
+#break chr_drv/console.c:422
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void save_cur(void)
+#break chr_drv/console.c:435
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void con_write(struct tty_struct * tty)
+#break chr_drv/console.c:446
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void con_init(void)
+#break chr_drv/console.c:618
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void sysbeepstop(void)
+#break chr_drv/console.c:692
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void sysbeep(void)
+break chr_drv/console.c:700
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

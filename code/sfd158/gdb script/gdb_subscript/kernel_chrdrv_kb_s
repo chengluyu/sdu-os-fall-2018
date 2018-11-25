@@ -1,0 +1,19 @@
+#===========sys.c=================================
+#keyboard_interrupt
+break kb.S:47
+  comm
+    print $strlable
+       outCOMM
+    print "keyboard interrupt"
+    print "values:"
+    print "sched.c: void show_task(..)"
+    print $sched_show_task
+    print "sched.c: void show_stat(void)"
+    print $sched_show_stat
+    print "sched.c: void schedule()"
+    print $sched_math_state_restore
+    #print "sched.c: void sleep_on()"
+    #print $sched_sleep_on
+    print $strlable
+    c
+  end

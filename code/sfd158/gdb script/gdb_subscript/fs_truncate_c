@@ -1,0 +1,27 @@
+#===========truncate.c=================================
+##static void free_ind(int dev,int block)
+break truncate.c:11
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static void free_dind(int dev,int block)
+break truncate.c:29
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##void truncate(struct m_inode * inode)
+break truncate.c:47
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

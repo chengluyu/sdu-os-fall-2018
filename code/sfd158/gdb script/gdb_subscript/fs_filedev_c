@@ -1,0 +1,18 @@
+#===========file_dev.c=================================
+##int file_read(struct m_inode * inode, struct file * filp, char * buf, int count)
+break file_dev.c:17
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int file_write(struct m_inode * inode, struct file * filp, char * buf, int count)
+break file_dev.c:48
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

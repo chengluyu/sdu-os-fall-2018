@@ -1,0 +1,27 @@
+#===========pipe.c=================================
+##int read_pipe(struct m_inode * inode, char * buf, int count)
+break pipe.c:19
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int write_pipe(struct m_inode * inode, char * buf, int count)
+break pipe.c:41
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_pipe(unsigned long * fildes)
+break pipe.c:71
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

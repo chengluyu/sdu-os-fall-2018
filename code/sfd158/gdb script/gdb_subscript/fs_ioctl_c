@@ -1,0 +1,10 @@
+#===========inode.c=================================
+##int sys_ioctl(unsigned int fd, unsigned int cmd, unsigned long arg)
+break ioctl.c:30
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+

@@ -1,0 +1,27 @@
+#===========vsprintf.c=================================
+#static int skip_atoi(const char **s)
+#break vsprintf.c:19
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+#static char * number(char *str, int num, int base, int size, int precision, int type)
+#break vsprintf.c:42
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+#int vsprintf(char buf*, const char *fmt, va_list args)
+break vsprintf.c:95
+  comm
+   print $strlable
+       outBT2
+   print $strlable
+   c
+  end

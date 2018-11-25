@@ -1,0 +1,136 @@
+#===========mm.c=================================
+#static inline void oom(void)
+break memory.c:33
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#unsigned long get_free_page(void), output times: 500+
+break memory.c:63
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#void free_page(unsigned long addr), output times: 1500+
+break memory.c:89
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#int free_page_tables(unsigned long from,unsigned long size)
+break memory.c:105
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#int copy_page_tables(unsigned long from,unsigned long to,long size)
+break memory.c:150
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#unsigned long put_page(unsigned long page,unsigned long address)
+break memory.c:197
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#void un_wp_page(unsigned long * table_entry)
+break memory.c:221
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#void do_wp_page(unsigned long error_code,unsigned long address)
+break memory.c:247
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#void write_verify(unsigned long address)
+#about 3 times/ second
+break memory.c:261
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#void get_empty_page(unsigned long address)
+break memory.c:274
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#static int try_to_share(unsigned long address, struct task_struct * p)
+break memory.c:292
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#static int share_page(unsigned long address)
+break memory.c:345
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#void do_no_page(unsigned long error_code,unsigned long address)
+break memory.c:366
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#void mem_init(long start_mem, long end_mem)
+break memory.c:400
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end
+
+#void calc_mem(void)
+break memory.c:414
+  comm
+	print $strlable
+       outCOMM
+   print $strlable
+   c
+  end

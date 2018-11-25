@@ -1,0 +1,126 @@
+#===========inode.c=================================
+##static inline void wait_on_inode(struct m_inode * inode)
+break inode.c:20
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static inline void lock_inode(struct m_inode * inode)
+break inode.c:29
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static inline void unlock_inode(struct m_inode * inode)
+break inode.c:37
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##void invalidate_inodes(int dev)
+break inode.c:43
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##void sync_inodes(void)
+break inode.c:59
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static int _bmap(struct m_inode * inode,int block,int create)
+break inode.c:72
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int bmap(struct m_inode * inode,int block)
+break inode.c:140
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int create_block(struct m_inode * inode, int block)
+break inode.c:145
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##void iput(struct m_inode * inode)
+break inode.c:150
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##struct m_inode * get_empty_inode(void)
+break inode.c:194
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##struct m_inode * get_pipe_inode(void)
+break inode.c:228
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##struct m_inode * iget(int dev,int nr)
+break inode.c:244
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static void read_inode(struct m_inode * inode)
+break inode.c:294
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static void write_inode(struct m_inode * inode)
+break inode.c:314
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

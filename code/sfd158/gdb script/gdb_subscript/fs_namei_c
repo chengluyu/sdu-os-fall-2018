@@ -1,0 +1,126 @@
+#===========namei.c=================================
+##static int permission(struct m_inode * inode,int mask)
+break namei.c:40
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static int match(int len,const char * name,struct dir_entry * de)
+break namei.c:63
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static struct buffer_head * find_entry(struct m_inode ** dir,	const char * name, int namelen, struct dir_entry ** res_dir)
+break namei.c:91
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static struct buffer_head * add_entry(struct m_inode * dir,const char * name, int namelen, struct dir_entry ** res_dir)
+break namei.c:165
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static struct m_inode * get_dir(const char * pathname)
+break namei.c:228
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static struct m_inode * dir_namei(const char * pathname,int * namelen, const char ** name)
+break namei.c:278
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##struct m_inode * namei(const char * pathname)
+break namei.c:303
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int open_namei(const char * pathname, int flag, int mode,struct m_inode ** res_inode)
+break namei.c:337
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_mknod(const char * filename, int mode, int dev)
+break namei.c:412
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_mkdir(const char * pathname, int mode)
+break namei.c:463
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static int empty_dir(struct m_inode * inode)
+break namei.c:543
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_rmdir(const char * name)
+break namei.c:587
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_unlink(const char * name)
+break namei.c:663
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_link(const char * oldname, const char * newname)
+break namei.c:721
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

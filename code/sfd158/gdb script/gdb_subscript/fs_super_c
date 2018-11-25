@@ -1,0 +1,82 @@
+#===========super.c=================================
+##static void lock_super(struct super_block * sb)
+break super.c:31
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static void free_super(struct super_block * sb)
+break super.c:40
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static void wait_on_super(struct super_block * sb)
+break super.c:48
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##struct super_block * get_super(int dev)
+break super.c:56
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##void put_super(int dev)
+break super.c:74
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##static struct super_block * read_super(int dev)
+break super.c:100
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_umount(char * dev_name)
+break super.c:167
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_mount(char * dev_name, char * dir_name, int rw_flag)
+break super.c:200
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##void mount_root(void)
+break super.c:242
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+

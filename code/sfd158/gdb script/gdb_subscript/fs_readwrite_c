@@ -1,0 +1,27 @@
+#===========read_write.c=================================
+##int sys_lseek(unsigned int fd,off_t offset, int origin)
+break read_write.c:25
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_read(unsigned int fd,char * buf,int count)
+break read_write.c:55
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_write(unsigned int fd,char * buf,int count)
+break read_write.c:83
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

@@ -1,0 +1,37 @@
+#===========bitmap.c=================================
+
+##void free_block(int dev, int block)
+break bitmap.c:47
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int new_block(int dev)
+break bitmap.c:75
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##void free_inode(struct m_inode * inode)
+break bitmap.c:107
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##struct m_inode * new_inode(int dev)
+break bitmap.c:136
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

@@ -1,0 +1,98 @@
+set $strlable="sdughbiueksuihgiwfiuwfiiuehrgiowihief"
+set $int1cnt = 0
+set $int2cnt = 0
+break head.s:19
+  comm
+    set $int1cnt = $int1cnt + 1
+    c
+  end
+break page.s:15
+  comm
+    set $int2cnt = $int2cnt + 1
+    c
+  end
+#########
+set $backtraceAttr="backtrace:"
+set $localAttr="local varible:"
+
+define outBT
+    print $backtraceAttr
+    bt
+end
+
+define outBT2
+print $backtraceAttr
+bt 2
+end
+
+define outLOCAL
+print $localAttr
+info locals
+end
+
+define outCOMM
+outBT
+#outLOCAL
+end
+
+set $outInt1Attr = "int 1 count:"
+set $outInt2Attr = "int 2 count:"
+define outInt1
+    print $outInt1Attr
+    print $int1cnt
+end
+define outInt2
+    print $outInt2Attr
+    print $int2cnt
+end
+define outInt
+    outInt1
+    outInt2
+end
+
+#$arg1
+#print $arg1
+
+set $execAll = 0
+if $execAll == 1
+source ./gdb_subscript/fs_bitmap_c
+source ./gdb_subscript/fs_blockdev_c
+source ./gdb_subscript/fs_buffer_c
+source ./gdb_subscript/fs_chardev_c
+source ./gdb_subscript/fs_exec_c
+source ./gdb_subscript/fs_filedev_c
+source ./gdb_subscript/fs_inode_c
+source ./gdb_subscript/fs_ioctl_c
+source ./gdb_subscript/fs_namei_c
+source ./gdb_subscript/fs_open_c
+source ./gdb_subscript/fs_pipe_c
+source ./gdb_subscript/fs_readwrite_c
+source ./gdb_subscript/fs_stat_c
+source ./gdb_subscript/fs_super_c
+source ./gdb_subscript/fs_truncate_c
+    source ./gdb_subscript/include_string_h
+source ./gdb_subscript/init_main_c
+source ./gdb_subscript/kernel_blkdrv_floppy_c
+source ./gdb_subscript/kernel_blkdrv_llrwblk_c
+source ./gdb_subscript/kernel_blkdrv_ramdisk_c
+    source ./gdb_subscript/kernel_chrdrv_console_c
+source ./gdb_subscript/kernel_chrdrv_kb_s
+source ./gdb_subscript/kernel_chrdrv_serial_c
+    source ./gdb_subscript/kernel_chrdrv_ttyioctl_c
+    source ./gdb_subscript/kernel_exit_c
+    source ./gdb_subscript/kernel_fork_c
+source ./gdb_subscript/kernel_mktime_c
+    source ./gdb_subscript/kernel_panic_c
+    source ./gdb_subscript/kernel_printk_c
+#source ./gdb_subscript/kernel_sched_c
+    source ./gdb_subscript/kernel_sys_c
+    source ./gdb_subscript/kernel_traps_c
+    source ./gdb_subscript/kernel_ttyio_c
+    source ./gdb_subscript/kernel_vsprintf_c
+source ./gdb_subscript/mm_memory_c
+end
+
+#########
+c
+c
+q

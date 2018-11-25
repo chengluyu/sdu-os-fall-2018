@@ -1,0 +1,51 @@
+#===========string.h=================================
+#void show_task(int nr struct task_struct *p)
+set $sched_show_task = 0
+break sched.c:26
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    set $sched_show_task = $sched_show_task + 1
+    c
+  end
+
+#void show_stat(void)
+set $sched_show_stat = 0
+break sched.c:37
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    set $sched_show_stat = $sched_show_stat + 1
+    c
+  end
+
+#void math_state_restore()
+set $sched_math_state_restore = 0
+break sched.c:77
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    set $sched_math_state_restore = $sched_math_state_restore + 1
+    c
+  end
+
+#void schedule(void)
+#set $sched_schedule = 0
+#break sched.c:104
+#Don't add break point at function: sched.c: void schedule(void)
+#it will be very very slow.
+
+#int sys_pause(void)
+#break sched.c:144
+#Don't add break point at function: sched.c: int sys_pause(void)
+#it will be very very slow.
+
+
+#void sleep_on(struct task_struct **p)
+#break sched.c:151
+#should not add watch point to this function, as this function may be called many times,
+#and the speed will be slow.
+#So, 

@@ -1,0 +1,27 @@
+#===========traps.c=================================
+#static void die(char * str, long esp_ptr, long nr)
+break traps.c:64
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+#void do_int3(...)
+break traps.c:106
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+#void trap_init(void)
+break traps.c:182
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

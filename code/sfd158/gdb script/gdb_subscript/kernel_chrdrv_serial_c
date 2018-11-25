@@ -1,0 +1,27 @@
+#===========serial.c=================================
+##static void init(int port)
+#break chr_drv/serial.c:26
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void rs_init(void)
+#break chr_drv/serial.c:37
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+#void rs_write(struct tty_struct * tty)
+break chr_drv/serial.c:53
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

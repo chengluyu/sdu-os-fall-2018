@@ -1,0 +1,36 @@
+#===========fcntl.c=================================
+##static int dupfd(unsigned int fd, unsigned int arg)
+break fcntl.c:18
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_dup2(unsigned int oldfd, unsigned int newfd)
+break fcntl.c:36
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_dup(unsigned int fildes)
+break fcntl.c:42
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_fcntl(unsigned int fd, unsigned int cmd, unsigned long arg)
+break fcntl.c:47
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

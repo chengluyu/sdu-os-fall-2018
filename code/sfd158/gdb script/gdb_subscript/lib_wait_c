@@ -1,0 +1,4 @@
+#===========lib_wait.c=================================
+##pid_t wait(int * wait_stat)
+#will jump to head.s and page.s...
+#break lib/lib_wait.c:13

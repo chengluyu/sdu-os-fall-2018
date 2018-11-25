@@ -1,0 +1,9 @@
+#===========panic.c=================================
+#static void change_speed(struct tty_struct *tty)
+break panic.c:19
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

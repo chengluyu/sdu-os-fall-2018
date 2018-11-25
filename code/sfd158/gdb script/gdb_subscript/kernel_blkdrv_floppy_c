@@ -1,0 +1,164 @@
+#===========string.h=================================
+#
+
+#void floppy_deselect(unsigned int nr)
+#break blk_drv/floppy.c:125
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#int floppy_change(unsigned int nr)
+#break blk_drv/floppy.c:139
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static void setup_DMA(void)
+#break blk_drv/floppy.c:160
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static void output_byte(char byte)
+#break blk_drv/floppy.c:194
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static int result(void)
+#break blk_drv/floppy.c:212
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static void bad_flp_intr(void)
+#break blk_drv/floppy.c:233
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static void rw_interrupt(void)
+#break blk_drv/floppy.c:250
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static inline void setup_rw_floppy(void)
+#break blk_drv/floppy.c:269
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void seek_interrupt(void)
+#break blk_drv/floppy.c:291
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static void transfer(void)
+#break blk_drv/floppy.c:309
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static void recal_interrupt(void)
+#break blk_drv/floppy.c:343
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#void unexpected_floppy_interrupt(void)
+#break blk_drv/floppy.c:353
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static void recalibrate_floppy(void)
+#break blk_drv/floppy.c:362
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static void reset_interrupt(void)
+#break blk_drv/floppy.c:374
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static void reset_floppy(void)
+#break blk_drv/floppy.c:387
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#static void floppy_on_interrupt(void)
+#break blk_drv/floppy.c:405
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#void do_fd_request(void)
+#break blk_drv/floppy.c:418
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end
+
+#void floppy_init(void)
+#break blk_drv/floppy.c:458
+#  comm
+#    print $strlable
+#    outBT2
+#    print $strlable
+#    c
+#  end

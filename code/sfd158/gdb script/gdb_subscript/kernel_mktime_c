@@ -1,0 +1,9 @@
+#===========mktime.c=================================
+#long kernel_mktime(struct tm *tm)
+break mktime.c:41
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

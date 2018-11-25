@@ -1,0 +1,81 @@
+#===========tty_ioctl.c=================================
+##static void change_speed(struct tty_struct *tty)
+#break chr_drv/tty_ioctl.c:25
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void flush(struct tty_struct *queue)
+#break chr_drv/tty_ioctl.c:40
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void vait_until_sent(struct tty_struct *tty)
+#break chr_drv/tty_ioctl.c:47
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void send_break(struct tty_struct *tty)
+#break chr_drv/tty_ioctl.c:52
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void get_termios(struct tty_struct *tty, struct termios *termios)
+#break chr_drv/tty_ioctl.c:57
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void set_termios(struct tty_struct *tty, struct termios * termios)
+#break chr_drv/tty_ioctl.c:67
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static int get_termio(struct tty_struct *tty, struct termio *termio)
+#break chr_drv/tty_ioctl.c:77
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void set_termio(struct tty_struct *tty, struct termio * termio)
+#break chr_drv/tty_ioctl.c:98
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##int tty_ioctl(int dev, int cmd, int arg)
+break chr_drv/tty_ioctl.c:116
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

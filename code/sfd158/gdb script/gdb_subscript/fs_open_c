@@ -1,0 +1,90 @@
+#===========open.c=================================
+##int sys_ustat(int dev, struct ustat * ubuf)
+break open.c:19
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_utime(char * filename, struct utimbuf * times)
+break open.c:24
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_access(const char * filename,int mode)
+break open.c:47
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_chdir(const char * filename)
+break open.c:75
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_chroot(const char * filename)
+break open.c:90
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_chmod(const char * filename,int mode)
+break open.c:105
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_chown(const char * filename,int uid,int gid)
+break open.c:121
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_open(const char * filename,int flag,int mode)
+break open.c:138
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_creat(const char * pathname, int mode)
+break open.c:188
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_close(unsigned int fd)
+break open.c:193
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

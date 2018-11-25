@@ -1,0 +1,36 @@
+#===========fork.c=================================
+##void verify_area(void *addr,int size)
+#break fork.c:26
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+##int copy_men(int nr, struct task_struct *p)
+#break fork.c:41
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+##int copy_process(regs)
+#break fork.c:74
+#  comm
+#   print $strlable
+#       outBT2
+#   print $strlable
+#   c
+#  end
+
+##int find_empty_process(void)
+break fork.c:141
+  comm
+   print $strlable
+       outBT2
+   print $strlable
+   c
+  end

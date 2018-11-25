@@ -1,0 +1,27 @@
+#===========string.h=================================
+##void do_rd_request(void)
+#break blk_drv/ramdisk.c:23
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##long rd_init(long mem_start, int length)
+#break blk_drv/ramdisk.c:52
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void rd_load(void)
+break blk_drv/ramdisk.c:77
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

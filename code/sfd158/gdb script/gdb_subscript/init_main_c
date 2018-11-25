@@ -1,0 +1,37 @@
+#===========string.h=================================
+
+#static void time_init(void)
+break init/main.c:78
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#void main(void)
+break init/main.c:106
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#static int printf(const char *fmt, ...)
+break init/main.c:154
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end
+
+#void init(void)
+break init/main.c:171
+  comm
+    print $strlable
+       outCOMM
+    print $strlable
+    c
+  end

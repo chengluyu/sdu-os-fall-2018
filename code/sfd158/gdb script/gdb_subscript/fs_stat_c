@@ -1,0 +1,27 @@
+#===========stat.c=================================
+##static void cp_stat(struct m_inode * inode, struct stat * statbuf)
+break stat.c:15
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_stat(char * filename, struct stat * statbuf)
+break stat.c:36
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end
+
+##int sys_fstat(unsigned int fd, struct stat * statbuf)
+break stat.c:47
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

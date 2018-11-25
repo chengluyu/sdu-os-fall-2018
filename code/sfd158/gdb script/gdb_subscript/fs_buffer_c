@@ -1,0 +1,135 @@
+#===========bitmap.c=================================
+###static inline void wait_on_buffer(struct buffer_head * bh)
+#break buffer.c:39
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+###int sys_sync(void)
+#break buffer.c:39
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+###int sync_dev(int dev)
+#break buffer.c:62
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+###static inline void invalidate_buffers(int dev)
+#break buffer.c:87
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+###void check_disk_change(int dev)
+#break buffer.c:116
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+###static inline void remove_from_queues(struct buffer_head * bh)
+#break buffer.c:134
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+###static inline void insert_into_queues(struct buffer_head * bh)
+#break buffer.c:152
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+###static struct buffer_head * find_buffer(int dev, int block)
+#break buffer.c:169
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##struct buffer_head * get_hash_table(int dev, int block)
+#break buffer.c:186
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##struct buffer_head * getblk(int dev,int block)
+#break buffer.c:209
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+###void brelse(struct buffer_head * buf)
+#break buffer.c:257
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##struct buffer_head * bread(int dev,int block)
+#break buffer.c:270
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+###void bread_page(unsigned long address,int dev,int b[4])
+#break buffer.c:299
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+###struct buffer_head * breada(int dev,int first, ...)
+#break buffer.c:325
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+###void buffer_init(long buffer_end)
+break buffer.c:351
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

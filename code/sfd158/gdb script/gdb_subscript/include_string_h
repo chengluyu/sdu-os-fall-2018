@@ -1,0 +1,148 @@
+#===========string.h=================================
+##static inline char * strcpy(char *dest, const char *src)
+#break ../include/string.h:27
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static inline char * strncpy(char *dest, const char *src,int count)
+#break ../include/string.h:39
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static inline char * strcat(char *dest, const char *src)
+#break ../include/string.h:55
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static inline char * strncat(char *dest, const char *src,int count)
+#break ../include/string.h:69
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static inline void * memmove(void *dest, const void *src,int n)
+#break ../include/string.h:89
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+#static inline char * strncmp(const char *cs, const char *ct, int count)
+#break ../include/string.h:108
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static inline char * strchr(const char *s, char c)
+#break ../include/string.h:129
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static inline char * strrchr(const char *s, char c)
+#break ../include/string.h:146
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static inline int strcspn(const char *cs, const char *ct)
+#break ../include/string.h:186
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static inline char * strpbrk(const char *cs, const char *ct)
+#break ../include/string.h:210
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static inline char * strstr(const char *cs, const char *ct)
+#break ../include/string.h:237
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+#static inline int strlen(const char * s)
+#break ../include/string.h:264
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static inline char * strtok(char *s, const char *ct)
+#break ../include/string.h:278
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+#=====Accept, NoBug
+#static inline void * memcpy(void *dest, const void *src, int n)
+#break ../include/string.h:337
+#  comm
+#    print $strlable
+#       outBT
+#    print $strlable
+#    c
+#  end
+
+#=================Bug: always suspend at memset
+##static inline void * memmove(void * dest,const void * src, int n)
+#break include/string.h:346
+
+#==========bug: always suspend at memset
+##static inline char * memcmp(const void *cs, const void *ct, int count)
+#break include/string.h:364
+
+#==========bug: always suspend at memset
+#reason: this function is not used in any .c or .h or .s files, so it is optimized.
+##static inline void * memchr(const void *cs, char c,int count)
+
+##static inline void * memset(void *s, char c, int count)
+#break include/string.h:395
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end

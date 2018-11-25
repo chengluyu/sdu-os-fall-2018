@@ -1,0 +1,55 @@
+#===========string.h=================================
+
+#static inline void lock_buffer(struct buffer_head * bh)
+#break blk_drv/ll_rw_blk.c:42
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static inline void unlock_buffer(struct buffer_head * bh)
+#break blk_drv/ll_rw_blk.c:51
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void add_request(struct blk_dev_struct * dev, struct request * req)
+#break blk_drv/ll_rw_blk.c:64
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##static void make_request(int major,int rw, struct buffer_head * bh)
+#break blk_drv/ll_rw_blk.c:88
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void ll_rw_block(int rw, struct buffer_head * bh)
+#break blk_drv/ll_rw_blk.c:145
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void blk_dev_init(void)
+break blk_drv/ll_rw_blk.c:157
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

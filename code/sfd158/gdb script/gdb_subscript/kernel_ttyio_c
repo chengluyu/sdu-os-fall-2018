@@ -1,0 +1,90 @@
+#===========tty_io.c=================================
+##void tty_init(void)
+#break chr_drv/tty_io.c:105
+#  comm
+#    print $strlable
+#       outCOMM
+#    print $strlable
+#    c
+#  end
+
+##void tty_intr(struct tty_struct * tty, int mask)
+#break chr_drv/tty_io.c:112
+#  comm
+#    print $strlable
+#       outCOMM
+#    print $strlable
+#    c
+#  end
+
+##static void sleep_if_empty(struct tty_queue *queue)
+#break chr_drv/tty_io.c:123
+#  comm
+#    print $strlable
+#       outCOMM
+#    print $strlable
+#    c
+#  end
+
+##static void sleep_if_full(struct tty_queue *queue)
+#break chr_drv/tty_io.c:131
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void wait_for_keypress(void)
+#break chr_drv/tty_io.c:141
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void copy_to_cooked(struct tty_struct *tty)
+#break chr_drv/tty_io.c:146
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void tty_read(unsigned channel, char *buf, int nr)
+#break chr_drv/tty_io.c:231
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void tty_write(unsigned channel, char *buf, int nr)
+#break chr_drv/tty_io.c:292
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void do_tty_interrupt(int tty)
+#break chr_drv/tty_io.c:344
+#  comm
+#    print $strlable
+#       outBT2
+#    print $strlable
+#    c
+#  end
+
+##void chr_dev_init(void), empty function
+break chr_drv/tty_io.c:349
+  comm
+    print $strlable
+       outBT2
+    print $strlable
+    c
+  end

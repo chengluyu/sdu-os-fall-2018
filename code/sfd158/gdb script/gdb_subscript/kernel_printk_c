@@ -1,0 +1,9 @@
+#===========printk.c=================================
+#int printk(const char *fmt, ...)
+break printk.c:22
+  comm
+   print $strlable
+       outBT2
+   print $strlable
+   c
+  end
