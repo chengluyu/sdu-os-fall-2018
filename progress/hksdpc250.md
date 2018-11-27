@@ -33,7 +33,7 @@ Complete the data extraction tools. Pack it into a VMWare virtual machine.
 
 Now we are discussing which and what part of debugging infomation should be extracetd.
 
-## week9
+## Week9
 
 Optimize the data extraction tools for easier use. 
 Write a simple documention for it.
@@ -41,3 +41,15 @@ Write a simple documention for it.
 Fully tested the data extraction tools with partner. Fix some bugs.
 
 Now we are discussing which and what part of debugging infomation should be extracetd.
+
+## Week10
+
+Extracting data.
+
+Inproving data extraction tools.
+
+## Week11
+
+Extracting data.
+
+Make data extraction tools more easy to use.
