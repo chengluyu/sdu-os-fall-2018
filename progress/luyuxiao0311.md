@@ -34,3 +34,7 @@ Chenyuxiang put forward a new tool to extact data. After having finished trying 
 
 ## Week Ten
 I simplified the data that I have extracted. And I clear up my data so that it will be used in a simple way.
+
+## Week Eleven
+Because there are three crews in our group, it seems that it is diffcult to generate all of the data together. We solved the problem this week.    
+In the next week, We will discuss about the details of visualization and get down to write the vis part.
