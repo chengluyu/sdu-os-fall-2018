@@ -59,3 +59,8 @@
 
 *  group 放弃提取删除数据，提取完关闭文件数据，提取数据完毕
 *  To do 继续利用processing可视化
+
+## 12th Week
+
+* 分析write.json
+* 开始画图
