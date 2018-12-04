@@ -80,3 +80,11 @@ The source files involved are listed as follows:
 * Prepare for the presentation of the extracted data
 ### Next step
 * Visualization,visualization and visualization
+
+
+## 12th Week
+
+###	Conclusion
+* Finish the animation of static presentation
+### Next step
+* Visualization,visualization and visualization
