@@ -35,4 +35,9 @@
 # 11th week progress
 * 调整输出进程信息
 
-* 准备数据提取部分展示                                                          
+* 准备数据提取部分展示
+
+# 12th week progress
+* 配置PyQt环境
+
+* 学习PyQt                                                          
