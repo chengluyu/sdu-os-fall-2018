@@ -53,3 +53,8 @@ Inproving data extraction tools.
 Extracting data.
 
 Make data extraction tools more easy to use.
+
+## Week12
+
+Get some breakpoint that must be triggered to extract useful data for us.
+Try to extract screen once it changes using "watch" in gdb.
