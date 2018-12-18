@@ -40,4 +40,10 @@
 # 12th week progress
 * 配置PyQt环境
 
-* 学习PyQt                                                          
+* 学习PyQt  
+
+# 13th week progress
+* 用PyQt可视化
+
+# 14h week progress
+* 继续用PyQt可视化
