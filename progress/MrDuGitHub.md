@@ -62,3 +62,37 @@ The source files involved are listed as follows:
 
 ### Next step
 * Visualization
+
+## 10th Week
+
+###	Conclusion
+* Extract static data of the file system
+* Build a processing-based animation production framework,and based on this,the initial scene and some static display were drawn.
+
+### Next step
+* Visualization,visualization and visualization
+
+## 11th Week
+
+###	Conclusion
+* Make a little animation
+* Organize and filter data
+* Prepare for the presentation of the extracted data
+### Next step
+* Visualization,visualization and visualization
+
+
+## 12th Week
+
+###	Conclusion
+* Finish the animation of static presentation
+### Next step
+* Visualization,visualization and visualization
+
+
+## 13th Week
+
+###	Conclusion
+* Make the animation of create and open files,
+### Next step
+* finish it.
