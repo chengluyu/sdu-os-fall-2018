@@ -1,0 +1,3 @@
+[submodule "code/hksdpc250"]
+	path = code/hksdpc250
+	url = https://github.com/sfd158/oldlinux-homework.git
