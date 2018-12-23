@@ -1,5 +1,6 @@
 [submodule "code/hksdpc250"]
 	path = code/hksdpc250
+	url = https://github.com/sfd158/oldlinux-homework.git
 [submodule "code/sfd158"]
 	path = code/sfd158
 	url = https://github.com/sfd158/oldlinux-homework.git
