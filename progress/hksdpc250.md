@@ -3,13 +3,13 @@
 ## Week 5
 
 Successfully compiled linux0.11.
-Running linux0.11 in different emulators (Bochs,QEMU,VirtualBox,etc.).
+Running linux0.11 in different emulators (Bochs, QEMU, VirtualBox,etc.).
 Finding the appropriate method to debug linux0.11.
 
 ## Week 6
 
-Debug linux0.11 in multiple Linux distributions (debian fedora opensuse archlinux) using multiple version of gdb (4 6 7 8).
-Using multiple ways to debug linux0.11(different gdb guies, gdb cmdline frontends, pure gdb cmd line).
+Debug linux0.11 in multiple Linux distributions (Debian fedora OpenSUSE ArchLinux) using multiple version of gdb (4 6 7 8).
+Using multiple ways to debug linux0.11(different gdb GUI, gdb cmdline frontends, pure gdb cmd line).
 
 Finally, choose an appropriate debugging method.
 
@@ -62,3 +62,14 @@ Try to extract screen once it changes using "watch" in gdb.
 ## Week13
 
 The initial step of visualization.
+
+## Week14
+
+Add much more functions to data extraction tools, which make it more easy to use.
+Optimize it for higher performance.
+
+Complete the work. We are now ready for the presentation.
+
+## Week15
+
+Write lab reports.
