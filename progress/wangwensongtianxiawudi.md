@@ -69,3 +69,9 @@
 
 * 分析close.json
 * 继续画图
+
+# 14th Week
+
+* 分析close.json
+* 继续画图
+* 完成最终的演示
