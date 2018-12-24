@@ -64,3 +64,14 @@
 
 * 分析write.json
 * 开始画图
+
+# 13th Week
+
+* 分析close.json
+* 继续画图
+
+# 14th Week
+
+* 分析close.json
+* 继续画图
+* 完成最终的演示
