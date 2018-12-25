@@ -75,3 +75,9 @@
 * 分析close.json
 * 继续画图
 * 完成最终的演示
+
+ 
+# 15th Week
+
+* 利用processing完成了最终可视化的展示（write、close）
+* 与小组成员将所作成果合并起来
