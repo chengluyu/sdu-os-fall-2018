@@ -4,3 +4,6 @@
 [submodule "code/sfd158"]
 	path = code/sfd158
 	url = https://github.com/sfd158/oldlinux-homework.git
+[submodule "code/AiHxym"]
+	path = code/AiHxym
+	url = git@github.com:AiHxym/linux-vis.git
