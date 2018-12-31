@@ -1,0 +1,3 @@
+[submodule ".\\code\\vivym"]
+	path = .\\code\\vivym
+	url = https://github.com/vivym/linux-0.11-lab.git
