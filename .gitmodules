@@ -7,3 +7,6 @@
 [submodule "code/AiHxym"]
 	path = code/AiHxym
 	url = git@github.com:AiHxym/linux-vis.git
+[submodule "code/zzysdu"]
+	path = code/zzysdu
+	url = https://github.com/zzysdu/zzysdu_final.git
