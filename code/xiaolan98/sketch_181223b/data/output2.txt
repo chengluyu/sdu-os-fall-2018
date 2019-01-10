@@ -1,0 +1,5147 @@
+test
+find_empty_process start:task_nr:1
+copy_process start:The input parameter:1 155272 4092 917504 23 30523 3 21992 33 23 23 23 26802 15 514 155248 23
+p->state:2  p->pid:1  p->father:0  p->counter:15  p->start_time:1  copy_mem start:
+code_limit:655360
+data_limit:655360
+old_code_base:0
+new_code_base:67108864
+old_data_base:0
+new_data_base:67108864
+set p-state again:0
+last_pid1
+Schedule is called by sys_pause.
+Maybe 15 is the longest counter and 1 is the chosen one?
+The chosen task:
+1: pid=1, state=0, counter = 15, father=0 
+jiffies is 1
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 1
+
+1: pid=1, state=0, counter = 15, father=0 
+jiffies is 1
+
+
+find_empty_process start:task_nr:2
+copy_process start:The input parameter:2 155272 4092 917504 23 30523 3 142016 26 23 23 23 27072 15 518 155216 23
+p->state:2  p->pid:2  p->father:1  p->counter:15  p->start_time:3  copy_mem start:
+code_limit:655360
+data_limit:655360
+old_code_base:67108864
+new_code_base:134217728
+old_data_base:67108864
+new_data_base:134217728
+set p-state again:0
+last_pid2
+sys_waitpid start:
+verify_area start:
+start:155216 size:4
+set unable to be break
+Schedule is called by sys_waitpid.
+Maybe 15 is the longest counter and 2 is the chosen one?
+The chosen task:
+2: pid=2, state=0, counter = 15, father=1 
+jiffies is 3
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 3
+
+1: pid=1, state=1, counter = 13, father=0 
+jiffies is 3
+
+2: pid=2, state=0, counter = 15, father=1 
+jiffies is 3
+
+
+verify_area start:
+start:287320 size:1024
+verify_area start:
+start:67108292 size:45
+verify_area start:
+start:67107912 size:32
+verify_area start:
+start:67107912 size:32
+verify_area start:
+start:67108100 size:32
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+find_empty_process start:task_nr:3
+copy_process start:The input parameter:3 67108216 4092 1 23 30523 99578 12 309952 23 23 23 235695 15 582 67108204 23
+p->state:2  p->pid:3  p->father:2  p->counter:15  p->start_time:6  copy_mem start:
+code_limit:266240
+data_limit:67108864
+old_code_base:134217728
+new_code_base:201326592
+old_data_base:134217728
+new_data_base:201326592
+set p-state again:0
+last_pid3
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+verify_area start:
+start:67106288 size:1
+sys_exit start:
+do_exit start:
+change task[2]'s father from 3 to pid_1
+tell_father start:
+tell father 1
+do_exit call schedule~
+Schedule is called by do_exit.
+Maybe 15 is the longest counter and 3 is the chosen one?
+The chosen task:
+3: pid=3, state=0, counter = 15, father=1 
+jiffies is 10
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 10
+
+1: pid=1, state=0, counter = 13, father=0 
+jiffies is 10
+
+2: pid=2, state=3, counter = 8, father=1 
+jiffies is 10
+
+3: pid=3, state=0, counter = 15, father=1 
+jiffies is 10
+
+
+Schedule is called by sys_pause.
+Maybe 13 is the longest counter and 1 is the chosen one?
+The chosen task:
+1: pid=1, state=0, counter = 13, father=0 
+jiffies is 11
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 11
+
+1: pid=1, state=0, counter = 13, father=0 
+jiffies is 11
+
+2: pid=2, state=3, counter = 8, father=1 
+jiffies is 11
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 11
+
+
+
+waitpid call schedule~
+realse start:
+tast[2] is destroyed
+tast[i] is availible now: 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+Schedule is called by release.
+Maybe 12 is the longest counter and 1 is the chosen one?
+The chosen task:
+1: pid=1, state=0, counter = 12, father=0 
+jiffies is 12
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 12
+
+1: pid=1, state=0, counter = 12, father=0 
+jiffies is 12
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 12
+
+
+
+find_empty_process start:task_nr:2
+copy_process start:The input parameter:2 155272 4092 917504 23 30523 3 155216 0 23 23 23 27242 15 582 155216 23
+p->state:2  p->pid:4  p->father:1  p->counter:15  p->start_time:12  copy_mem start:
+code_limit:655360
+data_limit:655360
+old_code_base:67108864
+new_code_base:134217728
+old_data_base:67108864
+new_data_base:134217728
+set p-state again:0
+last_pid4
+sys_waitpid start:
+verify_area start:
+start:155216 size:4
+set unable to be break
+Schedule is called by sys_waitpid.
+Maybe 15 is the longest counter and 4 is the chosen one?
+The chosen task:
+2: pid=4, state=0, counter = 15, father=1 
+jiffies is 12
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 12
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 12
+
+2: pid=4, state=0, counter = 15, father=1 
+jiffies is 12
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 12
+
+
+verify_area start:
+start:67108576 size:36
+verify_area start:
+start:67108576 size:36
+verify_area start:
+start:287320 size:1024
+verify_area start:
+start:67108284 size:45
+verify_area start:
+start:67107904 size:32
+verify_area start:
+start:67107904 size:32
+verify_area start:
+start:67108084 size:32
+verify_area start:
+start:283048 size:36
+verify_area start:
+start:67108496 size:32
+verify_area start:
+start:292108 size:147
+verify_area start:
+start:67108496 size:32
+verify_area start:
+start:307212 size:17
+verify_area start:
+start:67108456 size:32
+verify_area start:
+start:322572 size:4189
+verify_area start:
+start:67108580 size:32
+verify_area start:
+start:67108500 size:32
+verify_area start:
+start:322572 size:4189
+verify_area start:
+start:283048 size:36
+find_empty_process start:task_nr:4
+copy_process start:The input parameter:4 67104960 362145 76483 23 30523 366412 76462 362176 23 23 23 235695 15 582 67104948 23
+p->state:2  p->pid:5  p->father:4  p->counter:15  p->start_time:17  copy_mem start:
+code_limit:266240
+data_limit:67108864
+old_code_base:134217728
+new_code_base:268435456
+old_data_base:134217728
+new_data_base:268435456
+set p-state again:0
+last_pid5
+verify_area start:
+start:67104956 size:1
+Schedule is called by sleep_on.
+Maybe 15 is the longest counter and 5 is the chosen one?
+The chosen task:
+4: pid=5, state=0, counter = 15, father=4 
+jiffies is 17
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 17
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 17
+
+2: pid=4, state=2, counter = 10, father=1 
+jiffies is 17
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 17
+
+4: pid=5, state=0, counter = 15, father=4 
+jiffies is 17
+
+
+verify_area start:
+start:67104340 size:32
+verify_area start:
+start:67104340 size:32
+verify_area start:
+start:67104340 size:32
+verify_area start:
+start:67104228 size:32
+verify_area start:
+start:371724 size:8192
+verify_area start:
+start:67104340 size:32
+verify_area start:
+start:67104340 size:32
+verify_area start:
+start:67104228 size:32
+verify_area start:
+start:371724 size:8192
+verify_area start:
+start:67104340 size:32
+sys_exit start:
+do_exit start:
+tell_father start:
+tell father 4
+do_exit call schedule~
+Schedule is called by do_exit.
+Maybe 10 is the longest counter and 4 is the chosen one?
+The chosen task:
+2: pid=4, state=0, counter = 10, father=1 
+jiffies is 19
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 19
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 19
+
+2: pid=4, state=0, counter = 10, father=1 
+jiffies is 19
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 19
+
+4: pid=5, state=3, counter = 13, father=4 
+jiffies is 19
+
+
+
+verify_area start:
+start:67104956 size:1
+verify_area start:
+start:67104956 size:1
+verify_area start:
+start:67104956 size:1
+verify_area start:
+start:67104956 size:1
+verify_area start:
+start:67104956 size:1
+verify_area start:
+start:67104956 size:1
+verify_area start:
+start:67104956 size:1
+verify_area start:
+start:67104956 size:1
+verify_area start:
+start:67104956 size:1
+verify_area start:
+start:67104956 size:1
+sys_waitpid start:
+verify_area start:
+start:67104944 size:4
+realse start:
+tast[4] is destroyed
+tast[i] is availible now: 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+Schedule is called by release.
+Maybe 6 is the longest counter and 4 is the chosen one?
+The chosen task:
+2: pid=4, state=0, counter = 6, father=1 
+jiffies is 23
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 23
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 23
+
+2: pid=4, state=0, counter = 6, father=1 
+jiffies is 23
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 23
+
+
+
+verify_area start:
+start:283048 size:36
+verify_area start:
+start:377868 size:2048
+verify_area start:
+start:67106212 size:36
+verify_area start:
+start:67106228 size:36
+verify_area start:
+start:67106208 size:1
+Schedule is called by interruptible_sleep_on.
+The chosen task:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 24
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 24
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 24
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 24
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 24
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 24
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 24
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 24
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 24
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 24
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 24
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 24
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 24
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 24
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 24
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+all tasks as follows:
+0: pid=0, state=1, counter = 14, father=-1 
+jiffies is 24
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 24
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 24
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 24
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+all tasks as follows:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 25
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 25
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 25
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+all tasks as follows:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 25
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 25
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 25
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+all tasks as follows:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 25
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 25
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 25
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+all tasks as follows:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 25
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 25
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 25
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+all tasks as follows:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 25
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 25
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 25
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+all tasks as follows:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 25
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 25
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 25
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+all tasks as follows:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 25
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 25
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 25
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+all tasks as follows:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 25
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 25
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 25
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 13, father=-1 
+jiffies is 25
+
+all tasks as follows:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 26
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 26
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 26
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+all tasks as follows:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 26
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 26
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 26
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+all tasks as follows:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 26
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 26
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 26
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+all tasks as follows:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 26
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 26
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 26
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+all tasks as follows:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 26
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 26
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 26
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+all tasks as follows:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 26
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 26
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 26
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+all tasks as follows:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 26
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 26
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 26
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+all tasks as follows:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 26
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 26
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 26
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+all tasks as follows:
+0: pid=0, state=1, counter = 12, father=-1 
+jiffies is 26
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 26
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 27
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 27
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+all tasks as follows:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 27
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 27
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 27
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+all tasks as follows:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 27
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 27
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 27
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+all tasks as follows:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 27
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 27
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 27
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+all tasks as follows:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 27
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 27
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 27
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+all tasks as follows:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 27
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 27
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 27
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+all tasks as follows:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 27
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 27
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 27
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+all tasks as follows:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 27
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 27
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 27
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+all tasks as follows:
+0: pid=0, state=1, counter = 11, father=-1 
+jiffies is 27
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 27
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 27
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 27
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+all tasks as follows:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 28
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 28
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 28
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+all tasks as follows:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 28
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 28
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 28
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+all tasks as follows:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 28
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 28
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 28
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+all tasks as follows:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 28
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 28
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 28
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+all tasks as follows:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 28
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 28
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 28
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+all tasks as follows:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 28
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 28
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 28
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+all tasks as follows:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 28
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 28
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 28
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+all tasks as follows:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 28
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 28
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 28
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+all tasks as follows:
+0: pid=0, state=1, counter = 10, father=-1 
+jiffies is 28
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 28
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 28
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 28
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 9, father=-1 
+jiffies is 29
+
+all tasks as follows:
+0: pid=0, state=1, counter = 9, father=-1 
+jiffies is 29
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 29
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 29
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 29
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 9, father=-1 
+jiffies is 29
+
+all tasks as follows:
+0: pid=0, state=1, counter = 9, father=-1 
+jiffies is 29
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 29
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 29
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 29
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 9, father=-1 
+jiffies is 29
+
+all tasks as follows:
+0: pid=0, state=1, counter = 9, father=-1 
+jiffies is 29
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 29
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 29
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 29
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 9, father=-1 
+jiffies is 29
+
+all tasks as follows:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 30
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 30
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 30
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+all tasks as follows:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 30
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 30
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 30
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+all tasks as follows:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 30
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 30
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 30
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+all tasks as follows:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 30
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 30
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 30
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+all tasks as follows:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 30
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 30
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 30
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+all tasks as follows:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 30
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 30
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 30
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+all tasks as follows:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 30
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 30
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 30
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+all tasks as follows:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 30
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 30
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 30
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 8, father=-1 
+jiffies is 30
+
+all tasks as follows:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 31
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 31
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 31
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+all tasks as follows:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 31
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 31
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 31
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+all tasks as follows:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 31
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 31
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 31
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+all tasks as follows:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 31
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 31
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 31
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+all tasks as follows:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 31
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 31
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 31
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+all tasks as follows:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 31
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 31
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 31
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+all tasks as follows:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 31
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 31
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 31
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+all tasks as follows:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 31
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 31
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 31
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+all tasks as follows:
+0: pid=0, state=1, counter = 7, father=-1 
+jiffies is 31
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 31
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 31
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 31
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+all tasks as follows:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 32
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 32
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 32
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+all tasks as follows:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 32
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 32
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 32
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+all tasks as follows:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 32
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 32
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 32
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+all tasks as follows:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 32
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 32
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 32
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+all tasks as follows:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 32
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 32
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 32
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+all tasks as follows:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 32
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 32
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 32
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+all tasks as follows:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 32
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 32
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 32
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+all tasks as follows:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 32
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 32
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 32
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+all tasks as follows:
+0: pid=0, state=1, counter = 6, father=-1 
+jiffies is 32
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 33
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 33
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 33
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+all tasks as follows:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 33
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 33
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 33
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+all tasks as follows:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 33
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 33
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 33
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+all tasks as follows:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 33
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 33
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 33
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+all tasks as follows:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 33
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 33
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 33
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+all tasks as follows:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 33
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 33
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 33
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+all tasks as follows:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 33
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 33
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 33
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+all tasks as follows:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 33
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 33
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 33
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 5, father=-1 
+jiffies is 33
+
+all tasks as follows:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 34
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 34
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 34
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+all tasks as follows:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 34
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 34
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 34
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+all tasks as follows:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 34
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 34
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 34
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+all tasks as follows:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 34
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 34
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 34
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+all tasks as follows:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 34
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 34
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 34
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+all tasks as follows:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 34
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 34
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 34
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+all tasks as follows:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 34
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 34
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 34
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+all tasks as follows:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 34
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 34
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 34
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+all tasks as follows:
+0: pid=0, state=1, counter = 4, father=-1 
+jiffies is 34
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 34
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 34
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 34
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+all tasks as follows:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 35
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 35
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 35
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+all tasks as follows:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 35
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 35
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 35
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+all tasks as follows:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 35
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 35
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 35
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+all tasks as follows:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 35
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 35
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 35
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+all tasks as follows:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 35
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 35
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 35
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+all tasks as follows:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 35
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 35
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 35
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+all tasks as follows:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 35
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 35
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 35
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+all tasks as follows:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 35
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 35
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 35
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+all tasks as follows:
+0: pid=0, state=1, counter = 3, father=-1 
+jiffies is 35
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 36
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 36
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 36
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+all tasks as follows:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 36
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 36
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 36
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+all tasks as follows:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 36
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 36
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 36
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+all tasks as follows:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 36
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 36
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 36
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+all tasks as follows:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 36
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 36
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 36
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+all tasks as follows:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 36
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 36
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 36
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+all tasks as follows:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 36
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 36
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 36
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+all tasks as follows:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 36
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 36
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 36
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+all tasks as follows:
+0: pid=0, state=1, counter = 2, father=-1 
+jiffies is 36
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 36
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 36
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 37
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 1, father=-1 
+jiffies is 37
+
+all tasks as follows:
+0: pid=0, state=1, counter = 1, father=-1 
+jiffies is 37
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 37
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 37
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 37
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 1, father=-1 
+jiffies is 37
+
+all tasks as follows:
+0: pid=0, state=1, counter = 1, father=-1 
+jiffies is 37
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 37
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 37
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 37
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 1, father=-1 
+jiffies is 37
+
+all tasks as follows:
+0: pid=0, state=1, counter = 1, father=-1 
+jiffies is 37
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 37
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 37
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 37
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 38
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 38
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 38
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 38
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 38
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 38
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 38
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 38
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 38
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 38
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 38
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 38
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 38
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 38
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 38
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 38
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 38
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 38
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 38
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 38
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 38
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 38
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 38
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 38
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 38
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 39
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 39
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 39
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 39
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 39
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 39
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 39
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 39
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 39
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 39
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 39
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 39
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 39
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 39
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 39
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 39
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 39
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 39
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 39
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 39
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 39
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 39
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 39
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 39
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 39
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 39
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 40
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 40
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 40
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 40
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 40
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 40
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 40
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 40
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 40
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 40
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 40
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 40
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 40
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 40
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 40
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 40
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 40
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 40
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 40
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 40
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 40
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 40
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 40
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 40
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 41
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 41
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 41
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 41
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 41
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 41
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 41
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 41
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 41
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 41
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 41
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 41
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 41
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 41
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 41
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 41
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 41
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 41
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 41
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 41
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 41
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 41
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 41
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 41
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 41
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 42
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 42
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 42
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 42
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 42
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 42
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 42
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 42
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 42
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 42
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 42
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 42
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 42
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 42
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 42
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 42
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 42
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 42
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 42
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 42
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 42
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 42
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 42
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 42
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 42
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 43
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 43
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 43
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 43
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 43
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 43
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 43
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 43
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 43
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 43
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 43
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 43
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 43
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 43
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 43
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 43
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 43
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 43
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 43
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 43
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 43
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 43
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 43
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 43
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 43
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 43
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 44
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 44
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 44
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 44
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 44
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 44
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 44
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 44
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 44
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 44
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 44
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 44
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 44
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 44
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 44
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 44
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 44
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 44
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 44
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 44
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 44
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 44
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 44
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 44
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 44
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 44
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 45
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 45
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 45
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 45
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 45
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 45
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 45
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 45
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 45
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 45
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 45
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 45
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 45
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 45
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 45
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 45
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 45
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 45
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 45
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 45
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 46
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 46
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 46
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 46
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 46
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 46
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 46
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 46
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 46
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 46
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 46
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 46
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 46
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 46
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 46
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 46
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 46
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 46
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 46
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 46
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 46
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 46
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 46
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 46
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 46
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 46
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 47
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 47
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 47
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 47
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 47
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 47
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 47
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 47
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 47
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 47
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 47
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 47
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 47
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 47
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 47
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 47
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 47
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 47
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 47
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 47
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 47
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 47
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 47
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 47
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 47
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 47
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 47
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 48
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 48
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 48
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 48
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 48
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 48
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 48
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 48
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 48
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 48
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 48
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 48
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 48
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 48
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 48
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 48
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 48
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 48
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 48
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 48
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 48
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 48
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 48
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 48
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 48
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 48
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 48
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 48
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 49
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 49
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 49
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 49
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 49
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 49
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 49
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 49
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 49
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 49
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 49
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 49
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 49
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 49
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 49
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 49
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 49
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 49
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 49
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 49
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 49
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 49
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 49
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 49
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 49
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 49
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 49
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 49
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 49
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 50
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 50
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 50
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 50
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 50
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 50
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 50
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 50
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 50
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 50
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 50
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 50
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 50
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 50
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 50
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 50
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 50
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 50
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 50
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 50
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 50
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 50
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 50
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 50
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 50
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 50
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 50
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 51
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 51
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 51
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 51
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 51
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 51
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 51
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 51
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 51
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 51
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 51
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 51
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 51
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 51
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 51
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 51
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 51
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 51
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 51
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 51
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 51
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 51
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 51
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 51
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 51
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 51
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 51
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 51
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 52
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 52
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 52
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 52
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 52
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 52
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 52
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 52
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 52
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 52
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 52
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 52
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 52
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 52
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 52
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 52
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 52
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 52
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 52
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 52
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 52
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 52
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 52
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 52
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 52
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 52
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 52
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 52
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 53
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 53
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 53
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 53
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 53
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 53
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 53
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 53
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 53
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 53
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 53
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 53
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 53
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 53
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 53
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 53
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 53
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 53
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 53
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 53
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 53
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 53
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 53
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 53
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 53
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 53
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 53
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 53
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 54
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 54
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 54
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 54
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 54
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 54
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 54
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 54
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 54
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 54
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 54
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 54
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 54
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 54
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 54
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 54
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 54
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 54
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 54
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 54
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 54
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 54
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 54
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 54
+
+
+Schedule is called by sys_pause.
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 54
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 54
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 54
+
+3: pid=3, state=1, counter = 14, father=1 
+jiffies is 54
+
+
+
+The chosen task:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 55
+
+all tasks as follows:
+0: pid=0, state=1, counter = 0, father=-1 
+jiffies is 55
+
+1: pid=1, state=1, counter = 12, father=0 
+jiffies is 55
+
+2: pid=4, state=1, counter = 5, father=1 
+jiffies is 55
+
