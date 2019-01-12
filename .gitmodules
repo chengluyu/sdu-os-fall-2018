@@ -7,3 +7,6 @@
 [submodule "code/AiHxym"]
 	path = code/AiHxym
 	url = git@github.com:AiHxym/linux-vis.git
+[submodule "code/MrDuGitHub"]
+	path = code/MrDuGitHub
+	url = git@github.com:MrDuGitHub/OS.git
