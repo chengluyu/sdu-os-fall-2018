@@ -7,6 +7,3 @@
 [submodule "code/AiHxym"]
 	path = code/AiHxym
 	url = git@github.com:AiHxym/linux-vis.git
-[submodule "code/OS"]
-	path = code/OS
-	url = git@github.com:MrDuGitHub/OS.git
