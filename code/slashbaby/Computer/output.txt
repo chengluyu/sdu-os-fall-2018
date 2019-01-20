@@ -1,0 +1,6252 @@
+Operation: 3
+process No. 0
+current: 0
+state: 0
+pid: 0
+father: -1
+counter: 14
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 0
+state: 0
+pid: 1
+father: 0
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 14
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 0
+pid: 1
+father: 0
+counter: 15
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 1
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 1
+state: 0
+pid: 1
+father: 0
+counter: 12
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 1
+state: 0
+pid: 2
+father: 1
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 1
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 1
+state: 1
+pid: 1
+father: 0
+counter: 11
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 1
+state: 0
+pid: 2
+father: 1
+counter: 15
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 2
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 2
+state: 1
+pid: 1
+father: 0
+counter: 11
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 2
+state: 0
+pid: 2
+father: 1
+counter: 11
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 2
+state: 0
+pid: 3
+father: 2
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 2
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 2
+state: 0
+pid: 1
+father: 0
+counter: 11
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 2
+state: 3
+pid: 2
+father: 1
+counter: 9
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 2
+state: 0
+pid: 3
+father: 1
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 3
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 3
+state: 0
+pid: 1
+father: 0
+counter: 11
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 3
+state: 3
+pid: 2
+father: 1
+counter: 8
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 3
+state: 1
+pid: 3
+father: 1
+counter: 14
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 1
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 1
+state: 0
+pid: 1
+father: 0
+counter: 11
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 1
+state: 3
+pid: 2
+father: 1
+counter: 8
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 1
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 1
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 1
+state: 0
+pid: 1
+father: 0
+counter: 10
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 1
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 1
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 1
+state: 0
+pid: 1
+father: 0
+counter: 9
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 1
+state: 0
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 1
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 1
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 1
+state: 1
+pid: 1
+father: 0
+counter: 8
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 1
+state: 0
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 1
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 7
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 11
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 4
+state: 0
+pid: 5
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 7
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 2
+pid: 4
+father: 1
+counter: 10
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 4
+state: 0
+pid: 5
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 5
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 5
+state: 1
+pid: 1
+father: 0
+counter: 7
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 5
+state: 0
+pid: 4
+father: 1
+counter: 9
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 5
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 5
+state: 3
+pid: 5
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 7
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 8
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 4
+state: 3
+pid: 5
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 7
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 7
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 7
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 4
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 7
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 4
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 7
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 4
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 7
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 1
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 4
+state: 0
+pid: 6
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 7
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 4
+state: 0
+pid: 6
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 6
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 6
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 6
+state: 0
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 6
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 6
+state: 3
+pid: 6
+father: 4
+counter: 20
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 14
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 4
+state: 3
+pid: 6
+father: 4
+counter: 20
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 11
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 4
+state: 0
+pid: 7
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 2
+pid: 4
+father: 1
+counter: 10
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 4
+state: 0
+pid: 7
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 7
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 7
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 7
+state: 0
+pid: 4
+father: 1
+counter: 9
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 7
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 7
+state: 3
+pid: 7
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 8
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 4
+state: 3
+pid: 7
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 7
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 3
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 4
+state: 0
+pid: 8
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 2
+pid: 4
+father: 1
+counter: 2
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 4
+state: 0
+pid: 8
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 8
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 8
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 8
+state: 0
+pid: 4
+father: 1
+counter: 1
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 8
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 8
+state: 3
+pid: 8
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 18
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 21
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 4
+state: 3
+pid: 8
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 14
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 14
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 14
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 14
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 11
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 4
+state: 0
+pid: 9
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 1
+pid: 4
+father: 1
+counter: 10
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 4
+state: 0
+pid: 9
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 9
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 9
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 9
+state: 0
+pid: 4
+father: 1
+counter: 9
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 9
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 9
+state: 3
+pid: 9
+father: 4
+counter: 12
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 8
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 4
+state: 3
+pid: 9
+father: 4
+counter: 12
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 7
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 4
+state: 0
+pid: 10
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 2
+pid: 4
+father: 1
+counter: 4
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 4
+state: 0
+pid: 10
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 10
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 10
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 10
+state: 0
+pid: 4
+father: 1
+counter: 3
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 10
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 10
+state: 3
+pid: 10
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 2
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 4
+state: 3
+pid: 10
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 24
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 25
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 14
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 10
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 4
+state: 0
+pid: 11
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 2
+pid: 4
+father: 1
+counter: 8
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 4
+state: 0
+pid: 11
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 11
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 11
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 11
+state: 0
+pid: 4
+father: 1
+counter: 8
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 11
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 11
+state: 3
+pid: 11
+father: 4
+counter: 12
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 7
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 4
+state: 3
+pid: 11
+father: 4
+counter: 12
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 4
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 4
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 4
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 4
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 2
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 4
+state: 0
+pid: 12
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 1
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 4
+state: 0
+pid: 12
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 10
+priority: 15
+#
+Operation: 3
+process No. 5
+current: 12
+state: 0
+pid: 13
+father: 12
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 12
+state: 1
+pid: 12
+father: 4
+counter: 9
+priority: 15
+#
+Operation: 4
+process No. 5
+current: 12
+state: 0
+pid: 13
+father: 12
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 13
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 13
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 13
+state: 1
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 13
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 13
+state: 0
+pid: 12
+father: 4
+counter: 8
+priority: 15
+#
+Operation: 4
+process No. 5
+current: 13
+state: 3
+pid: 13
+father: 12
+counter: 10
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 7
+priority: 15
+#
+Operation: 5
+process No. 5
+current: 12
+state: 3
+pid: 13
+father: 12
+counter: 10
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 5
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 3
+priority: 15
+#
+Operation: 3
+process No. 5
+current: 12
+state: 0
+pid: 14
+father: 12
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 12
+state: 1
+pid: 12
+father: 4
+counter: 2
+priority: 15
+#
+Operation: 4
+process No. 5
+current: 12
+state: 0
+pid: 14
+father: 12
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 14
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 14
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 14
+state: 1
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 14
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 14
+state: 0
+pid: 12
+father: 4
+counter: 1
+priority: 15
+#
+Operation: 4
+process No. 5
+current: 14
+state: 3
+pid: 14
+father: 12
+counter: 7
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 27
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 27
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 5
+current: 12
+state: 3
+pid: 14
+father: 12
+counter: 7
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 14
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 28
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 28
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 12
+priority: 15
+#
+Operation: 3
+process No. 5
+current: 12
+state: 0
+pid: 15
+father: 12
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 12
+state: 1
+pid: 12
+father: 4
+counter: 10
+priority: 15
+#
+Operation: 4
+process No. 5
+current: 12
+state: 0
+pid: 15
+father: 12
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 15
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 15
+state: 1
+pid: 1
+father: 0
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 15
+state: 1
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 15
+state: 1
+pid: 3
+father: 1
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 15
+state: 0
+pid: 12
+father: 4
+counter: 10
+priority: 15
+#
+Operation: 4
+process No. 5
+current: 15
+state: 3
+pid: 15
+father: 12
+counter: 10
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 28
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 28
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 9
+priority: 15
+#
+Operation: 5
+process No. 5
+current: 12
+state: 3
+pid: 15
+father: 12
+counter: 10
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 7
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 28
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 28
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 5
+priority: 15
+#
+Operation: 3
+process No. 5
+current: 12
+state: 0
+pid: 16
+father: 12
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 12
+state: 1
+pid: 12
+father: 4
+counter: 4
+priority: 15
+#
+Operation: 4
+process No. 5
+current: 12
+state: 0
+pid: 16
+father: 12
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 16
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 16
+state: 1
+pid: 1
+father: 0
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 16
+state: 1
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 16
+state: 1
+pid: 3
+father: 1
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 16
+state: 0
+pid: 12
+father: 4
+counter: 3
+priority: 15
+#
+Operation: 4
+process No. 5
+current: 16
+state: 3
+pid: 16
+father: 12
+counter: 9
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 28
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 28
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 2
+priority: 15
+#
+Operation: 5
+process No. 5
+current: 12
+state: 3
+pid: 16
+father: 12
+counter: 9
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 28
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 0
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 12
+state: 1
+pid: 4
+father: 1
+counter: 22
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 12
+state: 0
+pid: 12
+father: 4
+counter: 14
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 12
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 12
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 12
+state: 0
+pid: 4
+father: 1
+counter: 22
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 12
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 12
+state: 3
+pid: 12
+father: 4
+counter: 12
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 21
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 4
+state: 3
+pid: 12
+father: 4
+counter: 12
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 20
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 18
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 4
+state: 0
+pid: 17
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 2
+pid: 4
+father: 1
+counter: 17
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 4
+state: 0
+pid: 17
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 17
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 17
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 17
+state: 0
+pid: 4
+father: 1
+counter: 16
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 17
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 17
+state: 3
+pid: 17
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 4
+state: 3
+pid: 17
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 13
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 12
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 12
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 12
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 11
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 10
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 10
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 10
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 0
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 0
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 0
+state: 0
+pid: 4
+father: 1
+counter: 10
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 0
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 8
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 4
+state: 0
+pid: 18
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 1
+pid: 4
+father: 1
+counter: 7
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 4
+state: 0
+pid: 18
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 18
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 18
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 18
+state: 0
+pid: 4
+father: 1
+counter: 6
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 18
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 18
+state: 3
+pid: 18
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 5
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 4
+state: 3
+pid: 18
+father: 4
+counter: 13
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 4
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
+Operation: 3
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 3
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 3
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 2
+priority: 15
+#
+Operation: 3
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 3
+process No. 4
+current: 4
+state: 0
+pid: 19
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 2
+pid: 4
+father: 1
+counter: 1
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 4
+state: 0
+pid: 19
+father: 4
+counter: 15
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 19
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 19
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 19
+state: 0
+pid: 4
+father: 1
+counter: 15
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 19
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 4
+current: 19
+state: 3
+pid: 19
+father: 4
+counter: 21
+priority: 15
+#
+$
+
+Operation: 5
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 5
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 5
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 14
+priority: 15
+#
+Operation: 5
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+Operation: 5
+process No. 4
+current: 4
+state: 3
+pid: 19
+father: 4
+counter: 21
+priority: 15
+#
+$
+
+Operation: 4
+process No. 0
+current: 4
+state: 1
+pid: 0
+father: -1
+counter: 0
+priority: 15
+#
+Operation: 4
+process No. 1
+current: 4
+state: 1
+pid: 1
+father: 0
+counter: 29
+priority: 15
+#
+Operation: 4
+process No. 2
+current: 4
+state: 0
+pid: 4
+father: 1
+counter: 12
+priority: 15
+#
+Operation: 4
+process No. 3
+current: 4
+state: 1
+pid: 3
+father: 1
+counter: 29
+priority: 15
+#
+$
+
