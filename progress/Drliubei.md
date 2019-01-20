@@ -1,18 +1,17 @@
-@(os实验)
-#Progress
+# Progress of Drliubei
 ---
 ---
-##第一阶段
+## 第一阶段
 * 主要任务：分析源代码
 * 计划用时：5周
 
 ---
 
-###第一周
-####Overview
+### 第一周
+#### Overview
 * 了解该书的主要内容。
 * 了解一下Linus成功的原因。希望自己能有所启发。
-####Content
+#### Content
 ##### 该书的主要内容
 * 硬件知识
 * 内核引导启动和32位运动方式的准备阶段，应该全部阅读
@@ -21,13 +20,13 @@
 * 如何对linux系统进行各种实验活动
 
 ---
-###第二周
-####Overview
+### 第二周
+#### Overview
 了解微型计算机的基本组成。
-####Content
+#### Content
 ##### 所有系统的基本模型
 输入部分->处理部分->输出部分 
-#####传统计算机组成
+##### 传统计算机组成
 * 存储数据
 	* 主存储器
 	* BIOS存储器：计算机开机的时候各个系统的自检，并且建立一些各种配置表，中断向量表，键盘参数表。同时把处理器和系统其他部分初始化到一个已知状态，还给一些操作系统提供操作硬件的接口。
@@ -55,11 +54,11 @@
 	* EGA/VGA显示标准
 
 ---
-###第三周
-####Overview
+### 第三周
+#### Overview
 了解内核编程环境和语言。
-####Content
-#####两种汇编器
+#### Content
+##### 两种汇编器
 * as86：特殊程序
 * GNU as：一般程序
 	* 一些指令：一条指令一般包含4部分
@@ -70,16 +69,16 @@
 			* absulote区：绝对地址的变量
 			* undefined区：不在上述范围内的对象
 	* 重定位：as产生的目标文件的地址范围默认从0开始，ld调整它们的位置到运行时的位置上。
-#####c语言程序
+##### c语言程序
 * 扩展
 	* 嵌入汇编：编译器优化不到位，可以直接使用汇编代码来提高运行速度。
 	* 圆括号中的组合语句：在表达式里用循环和判断语句，一般用来定义宏。
 	* 寄存器变量：将变量存储在寄存器里，cup就不同访问内存了。
 	* 内联函数：让gcc将函数的代码集成到带调用该函数的代码中，减少调用和退出函数的时间。
-#####c语言和汇编的相互调用
+##### c语言和汇编的相互调用
 * c函数调用机制：栈帧结构和控制权转移方式。
 * 汇编程序调用c函数：重点仍然是函数参数在栈上位置的确定。
-#####目标文件
+##### 目标文件
 * 格式
 	* 执行头部分：包含一些和程序整体结构有关的参数。
 	* 重定位信息部分
@@ -87,7 +86,7 @@
 		* 存在为定义变量的引用，之后连接程序可以对该符号的值进行修改。
 	* 符号表和相关字符串部分：定义的全局符号和从其他模块引入的符号，或者由连接器定义的符号。
 * 链接目标文件
-#####make工具
+##### make工具
 * 决定一个含有多个源程序的大型程序中有哪些需要重新编译。
 * makefile是它的配置文件。
 * 过程
@@ -95,14 +94,14 @@
 	* 找出需要重建的目标代码，然后执行相应的操作。
 
 ---
-###第四周
-####Overview
+### 第四周
+#### Overview
 了解了 一下80X86保护模式以及编程。
-####Content
+#### Content
 ##### 系统寄存器以及指令
 * 作用：用于内存管理，中断等行为
 * 实现方法：对寄存器设定不同的标志位，使得cpu访问过后有不同的行为
-#####保护模式内存管理
+##### 保护模式内存管理
 * 内存寻址
 	* 段寻址技术：将内存分段。
 	* 指令寻址方式：计算偏移量。
@@ -116,20 +115,20 @@
 * 任务管理
 
 ---
-###第五周
-####Overview
+### 第五周
+#### Overview
 了解一下linux内核体系结构。
-####Content
-#####操作系统组成
+#### Content
+##### 操作系统组成
 * 用户应用程序：浏览器程序
 * 操作系统服务：shell命令解释系统以及那些内核编程接口
 * 操作系统内核：对硬件资源的抽象和访问调度
 * 硬件系统
-#####linux内核模式
+##### linux内核模式
 * 主程序
 * 系统服务
 * 支持函数
-#####体系结构
+##### 体系结构
 * 进程调度模块
 * 内存管理模块
 * 文件系统模块
@@ -137,46 +136,46 @@
 * 网络接口模块
 
 ---
-##第二阶段
+## 第二阶段
 * 主要任务：提出设计方案，说明感兴趣的系统运行过程。
 * 计划用时：2周
 
 ---
 
-###第六周
-####Overview
+### 第六周
+#### Overview
 确定感兴趣的操作系统的模块。
-####Content
+#### Content
 经过讨论，进程模块和其他模块之间都有联系。再加上上一级的学长好像没啥人做这个，所以我们决定把目标设定为进程模块。
 
 ---
 
-###第七周
-####Overview
+### 第七周
+#### Overview
 确定需要自己仔细看的源代码，并且确定需要可视化的和进程有关系的东西。
-####Content
-#####源代码
+#### Content
+##### 源代码
 * main.c
 * sched.h
 * sched.c
 * fork.c
 * exit.c
 * sytem_call.s
-#####可视化
+##### 可视化
 * 进程的生命周期
 * 进程的调度算法
 
 ---
-##第三阶段
+## 第三阶段
 * 主要任务：讨论，评估设计方案
 * 计划用时：5周
 
 ---
-###第八周
-####Overview
+### 第八周
+#### Overview
 主要看了main.c
-####Content
-#####main函数（感兴趣的部分）
+#### Content
+##### main函数（感兴趣的部分）
 ```c
 void main (void)		/* This really IS void, no error here. */
 {			
@@ -203,7 +202,7 @@ void main (void)		/* This really IS void, no error here. */
     pause ();
 }
 ```
-#####void函数（感兴趣的部分）
+##### void函数（感兴趣的部分）
 ```c
 void init (void)
 {
@@ -227,11 +226,11 @@ void init (void)
 }
 ```
 ---
-###第九周
-####Overview
+### 第九周
+#### Overview
 主要看了sched.h。
-####Content
-#####进程所有的状态
+#### Content
+##### 进程所有的状态
 ```c
 #define TASK_RUNNING 0		// 进程正在运行或已准备就绪。
 #define TASK_INTERRUPTIBLE 1	// 进程处于可中断等待状态。
@@ -239,7 +238,7 @@ void init (void)
 #define TASK_ZOMBIE 3		// 进程处于僵死状态，已经停止运行，但父进程还没发信号。
 #define TASK_STOPPED 4		// 进程已停止。
 ```
-#####进程的结构（感兴趣的内容）
+##### 进程的结构（感兴趣的内容）
 ```c
 struct task_struct
 {
@@ -260,12 +259,12 @@ struct task_struct
   //...
 };
 ```
-#####存储进程的数据结构
+##### 存储进程的数据结构
 ```c
 #define FIRST_TASK task[0]	// 任务0 比较特殊，所以特意给它单独定义一个符号。
 #define LAST_TASK task[NR_TASKS-1]	// 任务数组中的最后一项任务。
 ```
-#####调度函数声明
+##### 调度函数声明
 ```c
 extern void sched_init (void);
 // 进程调度函数。( kernel/sched.c, 104 )
@@ -273,15 +272,15 @@ extern void schedule (void);
 // 异常(陷阱)中断处理初始化函数，设置中断调用门并允许中断请求信号。( kernel/traps.c, 181 )
 ```
 ---
-###第十周
-####Overview
+### 第十周
+#### Overview
 主要看了fork.c和sytem_call.s。
-####Content
-######fork函数的汇编代码
+#### Content
+###### fork函数的汇编代码
 ```s
-#### sys_fork()调用，用于创建子进程，是system_call 功能2。原形在include/linux/sys.h 中。
-# 首先调用C 函数find_empty_process()，取得一个进程号pid。若返回负数则说明目前任务数组
-# 已满。然后调用copy_process()复制进程。
+//sys_fork()调用，用于创建子进程，是system_call 功能2。原形在include/linux/sys.h 中。
+//首先调用C 函数find_empty_process()，取得一个进程号pid。若返回负数则说明目前任务数组
+//已满。然后调用copy_process()复制进程。
 .align 2
 _sys_fork:
 call _find_empty_process # 调用find_empty_process()(kernel/fork.c,135)。
@@ -296,7 +295,7 @@ call _copy_process # 调用C 函数copy_process()(kernel/fork.c,68)。
 addl $20,%esp # 丢弃这里所有压栈内容。
 1: ret
 ```
-#####复制内存（感兴趣部分）
+##### 复制内存（感兴趣部分）
 ```c
 int copy_mem (int nr, struct task_struct *p)
 {
@@ -306,7 +305,7 @@ int copy_mem (int nr, struct task_struct *p)
   return 0;
 }
 ```
-#####复制进程（感兴趣的部分）
+##### 复制进程（感兴趣的部分）
 ```c
 long last_pid = 0;
 int copy_process (int nr, long ebp, long edi, long esi, long gs, long none,
@@ -334,7 +333,7 @@ int copy_process (int nr, long ebp, long edi, long esi, long gs, long none,
   return last_pid;		// 返回新进程号（与任务号是不同的）。
 }
 ```
-#####获取进程号(感兴趣部分)
+##### 获取进程号(感兴趣部分)
 ```c
 int find_empty_process (void){
   int i;
@@ -353,11 +352,11 @@ repeat:
 
 ---
 
-###第十一周
-####Overview
+### 第十一周
+#### Overview
 主要看了sched.c。
-####Content
-#####调度函数（感兴趣部分）
+#### Content
+##### 调度函数（感兴趣部分）
 ```c
 void schedule (void)
 {
@@ -393,11 +392,11 @@ void schedule (void)
 }
 ```
 
-###第十二周
-####Overview
+### 第十二周
+#### Overview
 主要看了exit.c。
-####Content
-#####释放指定进程（感兴趣的部分）
+#### Content
+##### 释放指定进程（感兴趣的部分）
 ```c
 void release (struct task_struct *p){
   int i;
@@ -415,22 +414,22 @@ void release (struct task_struct *p){
 ```
 
 ---
-##第四阶段
+## 第四阶段
 * 主要任务：提取关键数据，生成日志。
 * 计划用时 ：1周
 
 ---
-###第十三周
-####Overview
+### 第十三周
+#### Overview
 定义了数据格式，并且提取关键数据，生成日志。
-####Content
-#####操作系统对应的数据格式
+#### Content
+##### 操作系统对应的数据格式
 ```json
 [
 //这里面是一个个的进程数据结构
 ]
 ```
-#####每一个进程的数据格式
+##### 每一个进程的数据格式
 ```json
 {
 	"pid":,
@@ -442,16 +441,16 @@ void release (struct task_struct *p){
 ```
 
 ---
-##第五阶段
+## 第五阶段
 * 主要任务：可视化关键数据，生成日志。
 * 计划用时：3周
 
 ---
-###第十四周
-####Overview
+### 第十四周
+#### Overview
 使用processing进行可视化，确定相应的接口和类。
-####Content
-#####main.pde
+#### Content
+##### main.pde
 ```processing
 	//main.pde
 	Os os;
@@ -465,7 +464,7 @@ void release (struct task_struct *p){
 	  os.update();
 	}
 ```
-#####Os.pde
+##### Os.pde
 ```processing
 //class os
 class Os{
@@ -506,17 +505,17 @@ class Process{
 ```
 
 ---
-###第十五周
-####Overview
+### 第十五周
+#### Overview
 实现接口。
-####Content
+#### Content
 具体内容见代码或者实验报告。
 
 ---
-###第十六周
-####Overview
+### 第十六周
+#### Overview
 调试。
-####Content
+#### Content
 主题内容见展示的PPT。
 
 ---
