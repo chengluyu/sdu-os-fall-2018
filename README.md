@@ -1,3 +1,7 @@
+> Disclaimer: this project had been archived at **Jan 21th 2019 01:30 GMT+8 (China Standard Time)** because the final deadline is over. All pull requests had been merged at that time. This repository is **read-only now** and I **will not** revoke archiving for any submission reason. 
+>
+> However, for students whom may take this course in the future, you can freely refer to works here **as long as you behave under the license of those works**.
+
 # SDU OS Fall 2018
 
 This is the official repository of Operating System course of Taishan College. This repoistory is mainly served these purposes:
