@@ -1,0 +1,1457 @@
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess1", "data": {"pid": "1", "father": "0", "nr": "1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess2", "data": {"physical address": "0xfdf000", "father's address": "0x0"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess3", "data": {"start code linear address": "0x4000000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess4", "data": {"from": "0x0", "to": "0x4000000", "size": "655360"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess5", "data": {"size": "1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "160", "from_page_table": "0x1000", "to_page_table": "0xfde000", "from_dir": "0x0", "to_dir": "0x40"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfde094", "*table_entry": "0x25065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0x25000", "new_page": "0xfdd000", "new *table_entry": "0xfdd007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "0", "sec": "1", "head": "0", "cyl": "0", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfde088", "*table_entry": "0x22065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0x22000", "new_page": "0xfdc000", "new *table_entry": "0xfdc007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess1", "data": {"pid": "2", "father": "1", "nr": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess2", "data": {"physical address": "0xfdb000", "father's address": "0x1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess3", "data": {"start code linear address": "0x8000000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess4", "data": {"from": "0x4000000", "to": "0x8000000", "size": "655360"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess5", "data": {"size": "1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfde000", "to_page_table": "0xfda000", "from_dir": "0x40", "to_dir": "0x80"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfde094", "*table_entry": "0xfdd065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfdd000", "new_page": "0xfd9000", "new *table_entry": "0xfd9007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfda094", "*table_entry": "0xfdd065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "181", "sec": "7", "head": "5", "cyl": "11", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x8000000", "size": "0", "dir": "0x80"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x8000000", "size": "0", "dir": "0x80"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8000000", "page": "0xfda000", "tmp": "0x0"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x337", "nr[1]": "0x338", "nr[2]": "0x339", "nr[3]": "0x33a"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "43", "sec": "15", "head": "11", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8041000", "page": "0xfd6000", "tmp": "0x41000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x105"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "43", "sec": "27", "head": "11", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "57", "sec": "5", "head": "9", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x803d000", "page": "0xfd5000", "tmp": "0x3d000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xf5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x42c", "nr[1]": "0x42d", "nr[2]": "0x42e", "nr[3]": "0x42f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "56", "sec": "11", "head": "8", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8046000", "page": "0xfd4000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8007000", "page": "0xfd3000", "tmp": "0x7000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x1d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x354", "nr[1]": "0x355", "nr[2]": "0x356", "nr[3]": "0x357"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "44", "sec": "35", "head": "12", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8039000", "page": "0xfd2000", "tmp": "0x39000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xe5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x41c", "nr[1]": "0x41d", "nr[2]": "0x41e", "nr[3]": "0x41f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "55", "sec": "17", "head": "7", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x801a000", "page": "0xfd1000", "tmp": "0x1a000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x69"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3a0", "nr[1]": "0x3a1", "nr[2]": "0x3a2", "nr[3]": "0x3a3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "48", "sec": "35", "head": "0", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8045000", "page": "0xfd0000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8044000", "page": "0xfcf000", "tmp": "0x44000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x111"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x448", "nr[1]": "0x449", "nr[2]": "0x44a", "nr[3]": "0x44b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "57", "sec": "29", "head": "9", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8047000", "page": "0xfce000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8048000", "page": "0xfcd000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8001000", "page": "0xfcc000", "tmp": "0x1000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x33b", "nr[1]": "0x33c", "nr[2]": "0x33e", "nr[3]": "0x33f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "43", "sec": "23", "head": "11", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x803c000", "page": "0xfcb000", "tmp": "0x3c000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xf1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x428", "nr[1]": "0x429", "nr[2]": "0x42a", "nr[3]": "0x42b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "56", "sec": "3", "head": "8", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x803f000", "page": "0xfca000", "tmp": "0x3f000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xfd"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x434", "nr[1]": "0x435", "nr[2]": "0x436", "nr[3]": "0x437"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "56", "sec": "27", "head": "8", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8049000", "page": "0xfc9000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x801e000", "page": "0xfc8000", "tmp": "0x1e000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x79"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3b0", "nr[1]": "0x3b1", "nr[2]": "0x3b2", "nr[3]": "0x3b3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "49", "sec": "29", "head": "1", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x803a000", "page": "0xfc7000", "tmp": "0x3a000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xe9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x420", "nr[1]": "0x421", "nr[2]": "0x422", "nr[3]": "0x423"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "55", "sec": "25", "head": "7", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8021000", "page": "0xfc6000", "tmp": "0x21000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x85"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3bc", "nr[1]": "0x3bd", "nr[2]": "0x3be", "nr[3]": "0x3bf"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "50", "sec": "15", "head": "2", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8020000", "page": "0xfc5000", "tmp": "0x20000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x81"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3b8", "nr[1]": "0x3b9", "nr[2]": "0x3ba", "nr[3]": "0x3bb"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "50", "sec": "7", "head": "2", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8019000", "page": "0xfc4000", "tmp": "0x19000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x65"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x39c", "nr[1]": "0x39d", "nr[2]": "0x39e", "nr[3]": "0x39f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "48", "sec": "27", "head": "0", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x803b000", "page": "0xfc3000", "tmp": "0x3b000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xed"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x424", "nr[1]": "0x425", "nr[2]": "0x426", "nr[3]": "0x427"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "55", "sec": "33", "head": "7", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8010000", "page": "0xfc2000", "tmp": "0x10000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x41"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x378", "nr[1]": "0x379", "nr[2]": "0x37a", "nr[3]": "0x37b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "46", "sec": "31", "head": "14", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x801b000", "page": "0xfc1000", "tmp": "0x1b000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x6d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3a4", "nr[1]": "0x3a5", "nr[2]": "0x3a6", "nr[3]": "0x3a7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "49", "sec": "5", "head": "1", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8040000", "page": "0xfc0000", "tmp": "0x40000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x101"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x438", "nr[1]": "0x439", "nr[2]": "0x43a", "nr[3]": "0x43b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "56", "sec": "35", "head": "8", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8008000", "page": "0xfbf000", "tmp": "0x8000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x21"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x358", "nr[1]": "0x359", "nr[2]": "0x35a", "nr[3]": "0x35b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "45", "sec": "5", "head": "13", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800d000", "page": "0xfbe000", "tmp": "0xd000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x35"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x36c", "nr[1]": "0x36d", "nr[2]": "0x36e", "nr[3]": "0x36f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "46", "sec": "7", "head": "14", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8015000", "page": "0xfbd000", "tmp": "0x15000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x55"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x38c", "nr[1]": "0x38d", "nr[2]": "0x38e", "nr[3]": "0x38f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "47", "sec": "33", "head": "15", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804a000", "page": "0xfbc000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800e000", "page": "0xfbb000", "tmp": "0xe000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x39"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x370", "nr[1]": "0x371", "nr[2]": "0x372", "nr[3]": "0x373"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "46", "sec": "15", "head": "14", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8016000", "page": "0xfba000", "tmp": "0x16000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x59"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x390", "nr[1]": "0x391", "nr[2]": "0x392", "nr[3]": "0x393"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "48", "sec": "3", "head": "0", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804b000", "page": "0xfb9000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800c000", "page": "0xfb8000", "tmp": "0xc000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x31"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x368", "nr[1]": "0x369", "nr[2]": "0x36a", "nr[3]": "0x36b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "45", "sec": "37", "head": "13", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8037000", "page": "0xfb7000", "tmp": "0x37000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xdd"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x414", "nr[1]": "0x415", "nr[2]": "0x416", "nr[3]": "0x417"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "55", "sec": "1", "head": "7", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800f000", "page": "0xfb6000", "tmp": "0xf000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x3d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x374", "nr[1]": "0x375", "nr[2]": "0x376", "nr[3]": "0x377"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "46", "sec": "23", "head": "14", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8012000", "page": "0xfb5000", "tmp": "0x12000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x49"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x380", "nr[1]": "0x381", "nr[2]": "0x382", "nr[3]": "0x383"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "47", "sec": "9", "head": "15", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8035000", "page": "0xfb4000", "tmp": "0x35000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xd5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x40c", "nr[1]": "0x40d", "nr[2]": "0x40e", "nr[3]": "0x40f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "54", "sec": "23", "head": "6", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8042000", "page": "0xfb3000", "tmp": "0x42000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x109"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x440", "nr[1]": "0x441", "nr[2]": "0x442", "nr[3]": "0x443"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "57", "sec": "13", "head": "9", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x801f000", "page": "0xfb2000", "tmp": "0x1f000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x7d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3b4", "nr[1]": "0x3b5", "nr[2]": "0x3b6", "nr[3]": "0x3b7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "49", "sec": "37", "head": "1", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804c000", "page": "0xfb1000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8004000", "page": "0xfb0000", "tmp": "0x4000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x348", "nr[1]": "0x349", "nr[2]": "0x34a", "nr[3]": "0x34b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "44", "sec": "11", "head": "12", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8009000", "page": "0xfaf000", "tmp": "0x9000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x25"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x35c", "nr[1]": "0x35d", "nr[2]": "0x35e", "nr[3]": "0x35f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "45", "sec": "13", "head": "13", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8003000", "page": "0xfae000", "tmp": "0x3000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xd"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x344", "nr[1]": "0x345", "nr[2]": "0x346", "nr[3]": "0x347"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "44", "sec": "3", "head": "12", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8002000", "page": "0xfad000", "tmp": "0x2000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x340", "nr[1]": "0x341", "nr[2]": "0x342", "nr[3]": "0x343"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "43", "sec": "33", "head": "11", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8005000", "page": "0xfac000", "tmp": "0x5000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x15"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x34c", "nr[1]": "0x34d", "nr[2]": "0x34e", "nr[3]": "0x34f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "44", "sec": "19", "head": "12", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804d000", "page": "0xfab000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "181", "sec": "9", "head": "5", "cyl": "11", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8006000", "page": "0xfaa000", "tmp": "0x6000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x19"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x350", "nr[1]": "0x351", "nr[2]": "0x352", "nr[3]": "0x353"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "44", "sec": "27", "head": "12", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800a000", "page": "0xfa9000", "tmp": "0xa000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x29"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x360", "nr[1]": "0x361", "nr[2]": "0x362", "nr[3]": "0x363"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "45", "sec": "21", "head": "13", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8013000", "page": "0xfa8000", "tmp": "0x13000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x4d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x384", "nr[1]": "0x385", "nr[2]": "0x386", "nr[3]": "0x387"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "47", "sec": "17", "head": "15", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8014000", "page": "0xfa7000", "tmp": "0x14000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x51"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x388", "nr[1]": "0x389", "nr[2]": "0x38a", "nr[3]": "0x38b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "47", "sec": "25", "head": "15", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8011000", "page": "0xfa6000", "tmp": "0x11000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x45"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x37c", "nr[1]": "0x37d", "nr[2]": "0x37e", "nr[3]": "0x37f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "47", "sec": "1", "head": "15", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8038000", "page": "0xfa5000", "tmp": "0x38000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xe1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x418", "nr[1]": "0x419", "nr[2]": "0x41a", "nr[3]": "0x41b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "55", "sec": "9", "head": "7", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800b000", "page": "0xfa4000", "tmp": "0xb000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x2d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x364", "nr[1]": "0x365", "nr[2]": "0x366", "nr[3]": "0x367"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "45", "sec": "29", "head": "13", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0xbffe000", "page": "0xfa3000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804e000", "page": "0xfa2000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess1", "data": {"pid": "3", "father": "2", "nr": "3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess2", "data": {"physical address": "0xfa1000", "father's address": "0x2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess3", "data": {"start code linear address": "0xc000000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess4", "data": {"from": "0x8000000", "to": "0xc000000", "size": "67108864"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess5", "data": {"size": "16"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfd7000", "to_page_table": "0xfa0000", "from_dir": "0x80", "to_dir": "0xc0"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfdd000", "to_page_table": "0xf9f000", "from_dir": "0xbc", "to_dir": "0xfc"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfddffc", "*table_entry": "0xfd8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd8000", "new_page": "0xf9e000", "new *table_entry": "0xf9e007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd7104", "*table_entry": "0xfd6065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd6000", "new_page": "0xf9d000", "new *table_entry": "0xf9d007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd712c", "*table_entry": "0xfb9065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfb9000", "new_page": "0xf9c000", "new *table_entry": "0xf9c007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd7114", "*table_entry": "0xfd0065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd0000", "new_page": "0xf9b000", "new *table_entry": "0xf9b007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd7118", "*table_entry": "0xfd4065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd4000", "new_page": "0xf9a000", "new *table_entry": "0xf9a007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd711c", "*table_entry": "0xfce065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfce000", "new_page": "0xf99000", "new *table_entry": "0xf99007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd7124", "*table_entry": "0xfc9065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfc9000", "new_page": "0xf98000", "new *table_entry": "0xf98007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd7110", "*table_entry": "0xfcf065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfcf000", "new_page": "0xf97000", "new *table_entry": "0xf97007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd7130", "*table_entry": "0xfb1065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfb1000", "new_page": "0xf96000", "new *table_entry": "0xf96007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd7128", "*table_entry": "0xfbc065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfbc000", "new_page": "0xf95000", "new *table_entry": "0xf95007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfddff8", "*table_entry": "0xfa3065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa3000", "new_page": "0xf94000", "new *table_entry": "0xf94007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd7134", "*table_entry": "0xfab065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfab000", "new_page": "0xf93000", "new *table_entry": "0xf93007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd7138", "*table_entry": "0xfa2065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa2000", "new_page": "0xf92000", "new *table_entry": "0xf92007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804f000", "page": "0xf91000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd7120", "*table_entry": "0xfcd065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfcd000", "new_page": "0xf90000", "new *table_entry": "0xf90007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8027000", "page": "0xf8f000", "tmp": "0x27000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x9d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3d4", "nr[1]": "0x3d5", "nr[2]": "0x3d6", "nr[3]": "0x3d7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "51", "sec": "25", "head": "3", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "51", "sec": "27", "head": "3", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "51", "sec": "29", "head": "3", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "51", "sec": "31", "head": "3", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa0114", "*table_entry": "0xfd0065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa012c", "*table_entry": "0xfb9065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "181", "sec": "11", "head": "5", "cyl": "11", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8028000", "page": "0xf8e000", "tmp": "0x28000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xa1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3d8", "nr[1]": "0x3d9", "nr[2]": "0x3da", "nr[3]": "0x3db"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "51", "sec": "33", "head": "3", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "51", "sec": "35", "head": "3", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "51", "sec": "37", "head": "3", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "52", "sec": "1", "head": "4", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0xc000000", "page": "0xfd6000", "tmp": "0x0"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0xd74", "nr[1]": "0xd75", "nr[2]": "0xd76", "nr[3]": "0xd77"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "181", "sec": "13", "head": "5", "cyl": "11", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x8000000", "size": "0", "dir": "0x80"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x8000000", "size": "0", "dir": "0x80"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess1", "data": {"pid": "4", "father": "1", "nr": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess2", "data": {"physical address": "0xfdd000", "father's address": "0x1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess3", "data": {"start code linear address": "0x8000000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess4", "data": {"from": "0x4000000", "to": "0x8000000", "size": "655360"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess5", "data": {"size": "1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfde000", "to_page_table": "0xfdb000", "from_dir": "0x40", "to_dir": "0x80"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfde094", "*table_entry": "0xfd9065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd9000", "new_page": "0xfda000", "new *table_entry": "0xfda007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdb094", "*table_entry": "0xfd9065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x8000000", "size": "0", "dir": "0x80"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x8000000", "size": "0", "dir": "0x80"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8000000", "page": "0xfd9000", "tmp": "0x0"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x337", "nr[1]": "0x338", "nr[2]": "0x339", "nr[3]": "0x33a"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8041000", "page": "0xfd4000", "tmp": "0x41000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x105"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x43c", "nr[1]": "0x43d", "nr[2]": "0x43e", "nr[3]": "0x43f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x803d000", "page": "0xfd3000", "tmp": "0x3d000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xf5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x42c", "nr[1]": "0x42d", "nr[2]": "0x42e", "nr[3]": "0x42f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8046000", "page": "0xfd2000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8007000", "page": "0xfd1000", "tmp": "0x7000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x1d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x354", "nr[1]": "0x355", "nr[2]": "0x356", "nr[3]": "0x357"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8039000", "page": "0xfd0000", "tmp": "0x39000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xe5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x41c", "nr[1]": "0x41d", "nr[2]": "0x41e", "nr[3]": "0x41f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x801a000", "page": "0xfcf000", "tmp": "0x1a000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x69"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3a0", "nr[1]": "0x3a1", "nr[2]": "0x3a2", "nr[3]": "0x3a3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8045000", "page": "0xfce000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8044000", "page": "0xfcd000", "tmp": "0x44000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x111"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x448", "nr[1]": "0x449", "nr[2]": "0x44a", "nr[3]": "0x44b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8047000", "page": "0xfcc000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8048000", "page": "0xfcb000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8001000", "page": "0xfca000", "tmp": "0x1000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x33b", "nr[1]": "0x33c", "nr[2]": "0x33e", "nr[3]": "0x33f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x803c000", "page": "0xfc9000", "tmp": "0x3c000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xf1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x428", "nr[1]": "0x429", "nr[2]": "0x42a", "nr[3]": "0x42b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x803f000", "page": "0xfc8000", "tmp": "0x3f000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xfd"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x434", "nr[1]": "0x435", "nr[2]": "0x436", "nr[3]": "0x437"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8049000", "page": "0xfc7000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x801e000", "page": "0xfc6000", "tmp": "0x1e000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x79"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3b0", "nr[1]": "0x3b1", "nr[2]": "0x3b2", "nr[3]": "0x3b3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x803a000", "page": "0xfc5000", "tmp": "0x3a000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xe9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x420", "nr[1]": "0x421", "nr[2]": "0x422", "nr[3]": "0x423"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8021000", "page": "0xfc4000", "tmp": "0x21000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x85"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3bc", "nr[1]": "0x3bd", "nr[2]": "0x3be", "nr[3]": "0x3bf"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8020000", "page": "0xfc3000", "tmp": "0x20000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x81"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3b8", "nr[1]": "0x3b9", "nr[2]": "0x3ba", "nr[3]": "0x3bb"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8019000", "page": "0xfc2000", "tmp": "0x19000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x65"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x39c", "nr[1]": "0x39d", "nr[2]": "0x39e", "nr[3]": "0x39f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x803b000", "page": "0xfc1000", "tmp": "0x3b000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xed"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x424", "nr[1]": "0x425", "nr[2]": "0x426", "nr[3]": "0x427"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8010000", "page": "0xfc0000", "tmp": "0x10000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x41"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x378", "nr[1]": "0x379", "nr[2]": "0x37a", "nr[3]": "0x37b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x801b000", "page": "0xfbf000", "tmp": "0x1b000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x6d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3a4", "nr[1]": "0x3a5", "nr[2]": "0x3a6", "nr[3]": "0x3a7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8040000", "page": "0xfbe000", "tmp": "0x40000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x101"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x438", "nr[1]": "0x439", "nr[2]": "0x43a", "nr[3]": "0x43b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8008000", "page": "0xfbd000", "tmp": "0x8000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x21"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x358", "nr[1]": "0x359", "nr[2]": "0x35a", "nr[3]": "0x35b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800d000", "page": "0xfbc000", "tmp": "0xd000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x35"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x36c", "nr[1]": "0x36d", "nr[2]": "0x36e", "nr[3]": "0x36f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8015000", "page": "0xfbb000", "tmp": "0x15000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x55"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x38c", "nr[1]": "0x38d", "nr[2]": "0x38e", "nr[3]": "0x38f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0xc001000", "page": "0xfb9000", "tmp": "0x1000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "181", "sec": "25", "head": "5", "cyl": "11", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804a000", "page": "0xfb8000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800e000", "page": "0xfb7000", "tmp": "0xe000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x39"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x370", "nr[1]": "0x371", "nr[2]": "0x372", "nr[3]": "0x373"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8016000", "page": "0xfb6000", "tmp": "0x16000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x59"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x390", "nr[1]": "0x391", "nr[2]": "0x392", "nr[3]": "0x393"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804b000", "page": "0xfb5000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800c000", "page": "0xfb4000", "tmp": "0xc000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x31"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x368", "nr[1]": "0x369", "nr[2]": "0x36a", "nr[3]": "0x36b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8037000", "page": "0xfb3000", "tmp": "0x37000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xdd"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x414", "nr[1]": "0x415", "nr[2]": "0x416", "nr[3]": "0x417"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800f000", "page": "0xfb2000", "tmp": "0xf000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x3d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x374", "nr[1]": "0x375", "nr[2]": "0x376", "nr[3]": "0x377"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8012000", "page": "0xfb1000", "tmp": "0x12000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x49"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x380", "nr[1]": "0x381", "nr[2]": "0x382", "nr[3]": "0x383"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8035000", "page": "0xfb0000", "tmp": "0x35000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xd5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x40c", "nr[1]": "0x40d", "nr[2]": "0x40e", "nr[3]": "0x40f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8042000", "page": "0xfaf000", "tmp": "0x42000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x109"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x440", "nr[1]": "0x441", "nr[2]": "0x442", "nr[3]": "0x443"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x801f000", "page": "0xfae000", "tmp": "0x1f000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x7d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3b4", "nr[1]": "0x3b5", "nr[2]": "0x3b6", "nr[3]": "0x3b7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804c000", "page": "0xfad000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8004000", "page": "0xfac000", "tmp": "0x4000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x348", "nr[1]": "0x349", "nr[2]": "0x34a", "nr[3]": "0x34b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "185", "sec": "13", "head": "9", "cyl": "11", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8003000", "page": "0xfab000", "tmp": "0x3000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xd"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x344", "nr[1]": "0x345", "nr[2]": "0x346", "nr[3]": "0x347"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8002000", "page": "0xfaa000", "tmp": "0x2000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x340", "nr[1]": "0x341", "nr[2]": "0x342", "nr[3]": "0x343"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8005000", "page": "0xfa9000", "tmp": "0x5000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x15"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x34c", "nr[1]": "0x34d", "nr[2]": "0x34e", "nr[3]": "0x34f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804d000", "page": "0xfa8000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8006000", "page": "0xfa7000", "tmp": "0x6000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x19"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x350", "nr[1]": "0x351", "nr[2]": "0x352", "nr[3]": "0x353"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8009000", "page": "0xfa6000", "tmp": "0x9000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x25"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x35c", "nr[1]": "0x35d", "nr[2]": "0x35e", "nr[3]": "0x35f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800a000", "page": "0xfa5000", "tmp": "0xa000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x29"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x360", "nr[1]": "0x361", "nr[2]": "0x362", "nr[3]": "0x363"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x800b000", "page": "0xfa4000", "tmp": "0xb000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x2d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x364", "nr[1]": "0x365", "nr[2]": "0x366", "nr[3]": "0x367"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0xbffe000", "page": "0xfa3000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804e000", "page": "0xfa2000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8011000", "page": "0xfa0000", "tmp": "0x11000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x45"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x37c", "nr[1]": "0x37d", "nr[2]": "0x37e", "nr[3]": "0x37f"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8013000", "page": "0xf9f000", "tmp": "0x13000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x4d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x384", "nr[1]": "0x385", "nr[2]": "0x386", "nr[3]": "0x387"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8014000", "page": "0xf9e000", "tmp": "0x14000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x51"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x388", "nr[1]": "0x389", "nr[2]": "0x38a", "nr[3]": "0x38b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8038000", "page": "0xf9d000", "tmp": "0x38000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xe1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x418", "nr[1]": "0x419", "nr[2]": "0x41a", "nr[3]": "0x41b"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0xd78", "nr[1]": "0xd79", "nr[2]": "0xd7b", "nr[3]": "0xd7c"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "181", "sec": "21", "head": "5", "cyl": "11", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x801d000", "page": "0xf9c000", "tmp": "0x1d000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x75"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3ac", "nr[1]": "0x3ad", "nr[2]": "0x3ae", "nr[3]": "0x3af"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "49", "sec": "21", "head": "1", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8026000", "page": "0xf9b000", "tmp": "0x26000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x99"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3d0", "nr[1]": "0x3d1", "nr[2]": "0x3d2", "nr[3]": "0x3d3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "51", "sec": "17", "head": "3", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8027000", "page": "0xf9a000", "tmp": "0x27000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x9d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3d4", "nr[1]": "0x3d5", "nr[2]": "0x3d6", "nr[3]": "0x3d7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8029000", "page": "0xf99000", "tmp": "0x29000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xa5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3dc", "nr[1]": "0x3dd", "nr[2]": "0x3de", "nr[3]": "0x3df"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "52", "sec": "3", "head": "4", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x802a000", "page": "0xf98000", "tmp": "0x2a000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xa9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3e0", "nr[1]": "0x3e1", "nr[2]": "0x3e2", "nr[3]": "0x3e3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "52", "sec": "11", "head": "4", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x802b000", "page": "0xf97000", "tmp": "0x2b000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xad"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3e4", "nr[1]": "0x3e5", "nr[2]": "0x3e6", "nr[3]": "0x3e7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "52", "sec": "19", "head": "4", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x804f000", "page": "0xf96000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "34", "sec": "31", "head": "2", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8050000", "page": "0xf95000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8051000", "page": "0xf94000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8052000", "page": "0xf93000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8053000", "page": "0xf92000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8054000", "page": "0xf91000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8055000", "page": "0xf90000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8056000", "page": "0xf8f000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8057000", "page": "0xf8e000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8058000", "page": "0xf8c000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8059000", "page": "0xf8b000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess1", "data": {"pid": "5", "father": "4", "nr": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess2", "data": {"physical address": "0xf89000", "father's address": "0x4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess3", "data": {"start code linear address": "0x10000000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess4", "data": {"from": "0x8000000", "to": "0x10000000", "size": "67108864"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess5", "data": {"size": "16"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfd5000", "to_page_table": "0xf88000", "from_dir": "0x80", "to_dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfdb000", "to_page_table": "0xf87000", "from_dir": "0xbc", "to_dir": "0x13c"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdbffc", "*table_entry": "0xfd7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd7000", "new_page": "0xf86000", "new *table_entry": "0xf86007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5104", "*table_entry": "0xfd4065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd4000", "new_page": "0xf85000", "new *table_entry": "0xf85007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5118", "*table_entry": "0xfd2065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd2000", "new_page": "0xf84000", "new *table_entry": "0xf84007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5110", "*table_entry": "0xfcd065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfcd000", "new_page": "0xf83000", "new *table_entry": "0xf83007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5114", "*table_entry": "0xfce065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfce000", "new_page": "0xf82000", "new *table_entry": "0xf82007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd515c", "*table_entry": "0xf8e065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf8e000", "new_page": "0xf81000", "new *table_entry": "0xf81007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf87ffc", "*table_entry": "0xfd7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf88118", "*table_entry": "0xfd2065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf88104", "*table_entry": "0xfd4065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf88114", "*table_entry": "0xfce065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf88164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf8b000", "new_page": "0xf80000", "new *table_entry": "0xf80007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf88138", "*table_entry": "0xfa2065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa2000", "new_page": "0xf7f000", "new *table_entry": "0xf7f007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf87ff8", "*table_entry": "0xfa3065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa3000", "new_page": "0xf7e000", "new *table_entry": "0xf7e007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf8815c", "*table_entry": "0xf8e065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf88110", "*table_entry": "0xfcd065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf88124", "*table_entry": "0xfc7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfc7000", "new_page": "0xf7d000", "new *table_entry": "0xf7d007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf88130", "*table_entry": "0xfad065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfad000", "new_page": "0xf7c000", "new *table_entry": "0xf7c007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf88160", "*table_entry": "0xf8c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf8c000", "new_page": "0xf7b000", "new *table_entry": "0xf7b007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x13ffd000", "page": "0xf7a000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf88134", "*table_entry": "0xfa8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa8000", "new_page": "0xf79000", "new *table_entry": "0xf79007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x1005a000", "page": "0xf78000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf8812c", "*table_entry": "0xfb5065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfb5000", "new_page": "0xf77000", "new *table_entry": "0xf77007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x1005c000", "page": "0xf76000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf88120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfcb000", "new_page": "0xf75000", "new *table_entry": "0xf75007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x805a000", "page": "0xfd7000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5134", "*table_entry": "0xfa8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd511c", "*table_entry": "0xfcc065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5108", "*table_entry": "0xfaf065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8031000", "page": "0xfd4000", "tmp": "0x31000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xc5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3fc", "nr[1]": "0x3fd", "nr[2]": "0x3fe", "nr[3]": "0x3ff"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "53", "sec": "29", "head": "5", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5128", "*table_entry": "0xfb8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8043000", "page": "0xfd2000", "tmp": "0x43000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x10d"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x444", "nr[1]": "0x445", "nr[2]": "0x446", "nr[3]": "0x447"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "57", "sec": "21", "head": "9", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x802c000", "page": "0xfce000", "tmp": "0x2c000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xb1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3e8", "nr[1]": "0x3e9", "nr[2]": "0x3ea", "nr[3]": "0x3eb"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "52", "sec": "27", "head": "4", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x802d000", "page": "0xfcd000", "tmp": "0x2d000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xb5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3ec", "nr[1]": "0x3ed", "nr[2]": "0x3ee", "nr[3]": "0x3ef"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "52", "sec": "35", "head": "4", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x805b000", "page": "0xf8e000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x805c000", "page": "0xf8a000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "181", "sec": "33", "head": "5", "cyl": "11", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x805d000", "page": "0xf89000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8030000", "page": "0xf88000", "tmp": "0x30000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xc1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3f8", "nr[1]": "0x3f9", "nr[2]": "0x3fa", "nr[3]": "0x3fb"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "53", "sec": "21", "head": "5", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x802e000", "page": "0xf87000", "tmp": "0x2e000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xb9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3f0", "nr[1]": "0x3f1", "nr[2]": "0x3f2", "nr[3]": "0x3f3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "53", "sec": "5", "head": "5", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x805e000", "page": "0xf80000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8032000", "page": "0xf7f000", "tmp": "0x32000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xc9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x400", "nr[1]": "0x401", "nr[2]": "0x402", "nr[3]": "0x403"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "53", "sec": "37", "head": "5", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x802f000", "page": "0xf7e000", "tmp": "0x2f000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xbd"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3f4", "nr[1]": "0x3f5", "nr[2]": "0x3f6", "nr[3]": "0x3f7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "53", "sec": "13", "head": "5", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x801c000", "page": "0xf7d000", "tmp": "0x1c000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x71"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x3a8", "nr[1]": "0x3a9", "nr[2]": "0x3aa", "nr[3]": "0x3ab"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "49", "sec": "13", "head": "1", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x805f000", "page": "0xf7c000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5160", "*table_entry": "0xf8c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x8061000", "page": "0xf7b000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5124", "*table_entry": "0xfc7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x8036000", "page": "0xf7a000", "tmp": "0x36000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xd9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x410", "nr[1]": "0x411", "nr[2]": "0x412", "nr[3]": "0x413"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "54", "sec": "31", "head": "6", "cyl": "3", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5154", "*table_entry": "0xf90065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5130", "*table_entry": "0xfad065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdbff8", "*table_entry": "0xfa3065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd512c", "*table_entry": "0xfb5065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess1", "data": {"pid": "6", "father": "4", "nr": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess2", "data": {"physical address": "0xf78000", "father's address": "0x4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess3", "data": {"start code linear address": "0x10000000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess4", "data": {"from": "0x8000000", "to": "0x10000000", "size": "67108864"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess5", "data": {"size": "16"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfd5000", "to_page_table": "0xf77000", "from_dir": "0x80", "to_dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfdb000", "to_page_table": "0xf76000", "from_dir": "0xbc", "to_dir": "0x13c"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdbffc", "*table_entry": "0xf86065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf86000", "new_page": "0xf75000", "new *table_entry": "0xf75007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5104", "*table_entry": "0xf85065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf85000", "new_page": "0xf74000", "new *table_entry": "0xf74007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5114", "*table_entry": "0xf82065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf82000", "new_page": "0xf73000", "new *table_entry": "0xf73007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd515c", "*table_entry": "0xf81065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf81000", "new_page": "0xf72000", "new *table_entry": "0xf72007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5118", "*table_entry": "0xf84065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf84000", "new_page": "0xf71000", "new *table_entry": "0xf71007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf76ffc", "*table_entry": "0xf86065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77118", "*table_entry": "0xf84065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77104", "*table_entry": "0xf85065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77114", "*table_entry": "0xf82065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77178", "*table_entry": "0xf80065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf80000", "new_page": "0xf70000", "new *table_entry": "0xf70007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77174", "*table_entry": "0xf89065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf89000", "new_page": "0xf6f000", "new *table_entry": "0xf6f007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77138", "*table_entry": "0xfa2065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa2000", "new_page": "0xf6e000", "new *table_entry": "0xf6e007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf76ff8", "*table_entry": "0xfa3065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa3000", "new_page": "0xf6d000", "new *table_entry": "0xf6d007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf7715c", "*table_entry": "0xf81065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77110", "*table_entry": "0xf83065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf83000", "new_page": "0xf6c000", "new *table_entry": "0xf6c007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf8b000", "new_page": "0xf6b000", "new *table_entry": "0xf6b007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77130", "*table_entry": "0xfad065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfad000", "new_page": "0xf6a000", "new *table_entry": "0xf6a007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf7711c", "*table_entry": "0xfcc065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfcc000", "new_page": "0xf69000", "new *table_entry": "0xf69007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77160", "*table_entry": "0xf8c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf8c000", "new_page": "0xf68000", "new *table_entry": "0xf68007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x13ffd000", "page": "0xf67000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77134", "*table_entry": "0xfa8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa8000", "new_page": "0xf66000", "new *table_entry": "0xf66007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf7717c", "*table_entry": "0xf7c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf7c000", "new_page": "0xf65000", "new *table_entry": "0xf65007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77168", "*table_entry": "0xfd7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd7000", "new_page": "0xf64000", "new *table_entry": "0xf64007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf7712c", "*table_entry": "0xfb5065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfb5000", "new_page": "0xf63000", "new *table_entry": "0xf63007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x10063000", "page": "0xf62000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "34", "sec": "35", "head": "2", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77184", "*table_entry": "0xf7b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf7b000", "new_page": "0xf61000", "new *table_entry": "0xf61007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "6"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf77120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfcb000", "new_page": "0xf60000", "new *table_entry": "0xf60007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5168", "*table_entry": "0xfd7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5178", "*table_entry": "0xf80065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5160", "*table_entry": "0xf8c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5110", "*table_entry": "0xf83065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5128", "*table_entry": "0xfb8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5108", "*table_entry": "0xfaf065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5174", "*table_entry": "0xf89065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd517c", "*table_entry": "0xf7c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5184", "*table_entry": "0xf7b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5124", "*table_entry": "0xfc7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5170", "*table_entry": "0xf8a065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5154", "*table_entry": "0xf90065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5130", "*table_entry": "0xfad065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdbff8", "*table_entry": "0xfa3065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5134", "*table_entry": "0xfa8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd511c", "*table_entry": "0xfcc065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd512c", "*table_entry": "0xfb5065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess1", "data": {"pid": "7", "father": "4", "nr": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess2", "data": {"physical address": "0xf85000", "father's address": "0x4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess3", "data": {"start code linear address": "0x10000000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess4", "data": {"from": "0x8000000", "to": "0x10000000", "size": "67108864"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess5", "data": {"size": "16"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfd5000", "to_page_table": "0xf84000", "from_dir": "0x80", "to_dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfdb000", "to_page_table": "0xf82000", "from_dir": "0xbc", "to_dir": "0x13c"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdbffc", "*table_entry": "0xf75065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf75000", "new_page": "0xf81000", "new *table_entry": "0xf81007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5104", "*table_entry": "0xf74065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf74000", "new_page": "0xf79000", "new *table_entry": "0xf79007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5114", "*table_entry": "0xf73065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf73000", "new_page": "0xf78000", "new *table_entry": "0xf78007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5160", "*table_entry": "0xf8c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf8c000", "new_page": "0xf77000", "new *table_entry": "0xf77007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5118", "*table_entry": "0xf71065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf71000", "new_page": "0xf76000", "new *table_entry": "0xf76007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf82ffc", "*table_entry": "0xf75065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84118", "*table_entry": "0xf71065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84104", "*table_entry": "0xf74065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84114", "*table_entry": "0xf73065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84178", "*table_entry": "0xf80065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf80000", "new_page": "0xf70000", "new *table_entry": "0xf70007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf8b000", "new_page": "0xf6f000", "new *table_entry": "0xf6f007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84138", "*table_entry": "0xfa2065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa2000", "new_page": "0xf6e000", "new *table_entry": "0xf6e007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf82ff8", "*table_entry": "0xfa3065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa3000", "new_page": "0xf6d000", "new *table_entry": "0xf6d007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf8411c", "*table_entry": "0xfcc065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfcc000", "new_page": "0xf6c000", "new *table_entry": "0xf6c007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84160", "*table_entry": "0xf8c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf8415c", "*table_entry": "0xf72065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf72000", "new_page": "0xf6b000", "new *table_entry": "0xf6b007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84110", "*table_entry": "0xf83065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf83000", "new_page": "0xf6a000", "new *table_entry": "0xf6a007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84130", "*table_entry": "0xfad065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfad000", "new_page": "0xf69000", "new *table_entry": "0xf69007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84134", "*table_entry": "0xfa8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa8000", "new_page": "0xf68000", "new *table_entry": "0xf68007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x13ffd000", "page": "0xf67000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf8417c", "*table_entry": "0xf7c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf7c000", "new_page": "0xf66000", "new *table_entry": "0xf66007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84168", "*table_entry": "0xfd7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd7000", "new_page": "0xf65000", "new *table_entry": "0xf65007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf8412c", "*table_entry": "0xfb5065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfb5000", "new_page": "0xf64000", "new *table_entry": "0xf64007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84154", "*table_entry": "0xf90065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf90000", "new_page": "0xf63000", "new *table_entry": "0xf63007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "34", "sec": "37", "head": "2", "cyl": "2", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84184", "*table_entry": "0xf7b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf7b000", "new_page": "0xf62000", "new *table_entry": "0xf62007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf84120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfcb000", "new_page": "0xf61000", "new *table_entry": "0xf61007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5168", "*table_entry": "0xfd7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5178", "*table_entry": "0xf80065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5174", "*table_entry": "0xf89065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd515c", "*table_entry": "0xf72065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5110", "*table_entry": "0xf83065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5128", "*table_entry": "0xfb8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5108", "*table_entry": "0xfaf065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5124", "*table_entry": "0xfc7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd512c", "*table_entry": "0xfb5065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5170", "*table_entry": "0xf8a065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5130", "*table_entry": "0xfad065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdbff8", "*table_entry": "0xfa3065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5134", "*table_entry": "0xfa8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd511c", "*table_entry": "0xfcc065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "2", "sec": "5", "head": "2", "cyl": "0", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess1", "data": {"pid": "8", "father": "4", "nr": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess2", "data": {"physical address": "0xf8c000", "father's address": "0x4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess3", "data": {"start code linear address": "0x10000000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess4", "data": {"from": "0x8000000", "to": "0x10000000", "size": "67108864"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess5", "data": {"size": "16"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfd5000", "to_page_table": "0xf86000", "from_dir": "0x80", "to_dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfdb000", "to_page_table": "0xf85000", "from_dir": "0xbc", "to_dir": "0x13c"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdbffc", "*table_entry": "0xf81065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf81000", "new_page": "0xf84000", "new *table_entry": "0xf84007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5104", "*table_entry": "0xf79065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf79000", "new_page": "0xf82000", "new *table_entry": "0xf82007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5178", "*table_entry": "0xf80065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf80000", "new_page": "0xf75000", "new *table_entry": "0xf75007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5114", "*table_entry": "0xf78065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf78000", "new_page": "0xf74000", "new *table_entry": "0xf74007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5134", "*table_entry": "0xfa8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa8000", "new_page": "0xf73000", "new *table_entry": "0xf73007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd512c", "*table_entry": "0xfb5065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfb5000", "new_page": "0xf71000", "new *table_entry": "0xf71007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd511c", "*table_entry": "0xfcc065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfcc000", "new_page": "0xf70000", "new *table_entry": "0xf70007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf85ffc", "*table_entry": "0xf81065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf86118", "*table_entry": "0xf76065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf76000", "new_page": "0xf6f000", "new *table_entry": "0xf6f007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf86114", "*table_entry": "0xf78065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf86178", "*table_entry": "0xf80065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "615", "sec": "5", "head": "7", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10000000", "page": "0xfb5000", "tmp": "0x0"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x2da7", "nr[1]": "0x2da8", "nr[2]": "0x2da9", "nr[3]": "0x2daa"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "615", "sec": "7", "head": "7", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x1000a000", "page": "0xf86000", "tmp": "0xa000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x29"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "615", "sec": "19", "head": "7", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "617", "sec": "13", "head": "9", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x1000b000", "page": "0xf85000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10003000", "page": "0xf81000", "tmp": "0x3000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xd"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x2db4", "nr[1]": "0x2db5", "nr[2]": "0x2db6", "nr[3]": "0x2db7"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "615", "sec": "33", "head": "7", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10006000", "page": "0xf80000", "tmp": "0x6000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x19"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x2dc0", "nr[1]": "0x2dc1", "nr[2]": "0x2dc2", "nr[3]": "0x2dc3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "616", "sec": "19", "head": "8", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10002000", "page": "0xf79000", "tmp": "0x2000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x2db0", "nr[1]": "0x2db1", "nr[2]": "0x2db2", "nr[3]": "0x2db3"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "615", "sec": "25", "head": "7", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10005000", "page": "0xf78000", "tmp": "0x5000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x15"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x2dbc", "nr[1]": "0x2dbd", "nr[2]": "0x2dbe", "nr[3]": "0x2dbf"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "616", "sec": "11", "head": "8", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x1000c000", "page": "0xf6f000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x1000d000", "page": "0xf6d000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x1000e000", "page": "0xf6c000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x10011000", "page": "0xf6b000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x10012000", "page": "0xf6a000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x10013000", "page": "0xf69000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x1000f000", "page": "0xf68000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "8"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10001000", "page": "0xf67000", "tmp": "0x1000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x2dab", "nr[1]": "0x2dac", "nr[2]": "0x2dae", "nr[3]": "0x2daf"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "615", "sec": "15", "head": "7", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10004000", "page": "0xf66000", "tmp": "0x4000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x2db8", "nr[1]": "0x2db9", "nr[2]": "0x2dba", "nr[3]": "0x2dbb"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "616", "sec": "3", "head": "8", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10008000", "page": "0xf65000", "tmp": "0x8000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x21"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x2dc8", "nr[1]": "0x2dc9", "nr[2]": "0x2dca", "nr[3]": "0x2dcb"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "616", "sec": "35", "head": "8", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10009000", "page": "0xf64000", "tmp": "0x9000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x25"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x2dcc", "nr[1]": "0x2dcd", "nr[2]": "0x2dce", "nr[3]": "0x2dcf"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "617", "sec": "5", "head": "9", "cyl": "38", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5160", "*table_entry": "0xf77065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5174", "*table_entry": "0xf89065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5118", "*table_entry": "0xf76065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess1", "data": {"pid": "9", "father": "4", "nr": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess2", "data": {"physical address": "0xfb5000", "father's address": "0x4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess3", "data": {"start code linear address": "0x10000000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess4", "data": {"from": "0x8000000", "to": "0x10000000", "size": "67108864"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess5", "data": {"size": "16"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfd5000", "to_page_table": "0xfa8000", "from_dir": "0x80", "to_dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfdb000", "to_page_table": "0xf8c000", "from_dir": "0xbc", "to_dir": "0x13c"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdbffc", "*table_entry": "0xf84065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf84000", "new_page": "0xf86000", "new *table_entry": "0xf86007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5104", "*table_entry": "0xf82065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf82000", "new_page": "0xf85000", "new *table_entry": "0xf85007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5114", "*table_entry": "0xf74065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf74000", "new_page": "0xf81000", "new *table_entry": "0xf81007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5160", "*table_entry": "0xf77065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf77000", "new_page": "0xf80000", "new *table_entry": "0xf80007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5118", "*table_entry": "0xf76065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf76000", "new_page": "0xf79000", "new *table_entry": "0xf79007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf8cffc", "*table_entry": "0xf84065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8118", "*table_entry": "0xf76065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8104", "*table_entry": "0xf82065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8114", "*table_entry": "0xf74065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8178", "*table_entry": "0xf75065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf75000", "new_page": "0xf78000", "new *table_entry": "0xf78007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8174", "*table_entry": "0xf89065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf89000", "new_page": "0xf6f000", "new *table_entry": "0xf6f007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf8b000", "new_page": "0xf6e000", "new *table_entry": "0xf6e007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8138", "*table_entry": "0xfa2065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa2000", "new_page": "0xf6d000", "new *table_entry": "0xf6d007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf8cff8", "*table_entry": "0xfa3065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa3000", "new_page": "0xf6c000", "new *table_entry": "0xf6c007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa811c", "*table_entry": "0xf70065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf70000", "new_page": "0xf6b000", "new *table_entry": "0xf6b007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8134", "*table_entry": "0xf73065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf73000", "new_page": "0xf6a000", "new *table_entry": "0xf6a007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8160", "*table_entry": "0xf77065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8110", "*table_entry": "0xf83065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf83000", "new_page": "0xf69000", "new *table_entry": "0xf69007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8124", "*table_entry": "0xfc7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfc7000", "new_page": "0xf68000", "new *table_entry": "0xf68007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8130", "*table_entry": "0xfad065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfad000", "new_page": "0xf67000", "new *table_entry": "0xf67007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa815c", "*table_entry": "0xf72065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf72000", "new_page": "0xf66000", "new *table_entry": "0xf66007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa817c", "*table_entry": "0xf7c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf7c000", "new_page": "0xf65000", "new *table_entry": "0xf65007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x13ffd000", "page": "0xf64000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8168", "*table_entry": "0xfd7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd7000", "new_page": "0xf63000", "new *table_entry": "0xf63007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa812c", "*table_entry": "0xf71065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf71000", "new_page": "0xf62000", "new *table_entry": "0xf62007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8154", "*table_entry": "0xf90065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf90000", "new_page": "0xf61000", "new *table_entry": "0xf61007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8184", "*table_entry": "0xf7b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf7b000", "new_page": "0xf60000", "new *table_entry": "0xf60007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfcb000", "new_page": "0xf5f000", "new *table_entry": "0xf5f007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5168", "*table_entry": "0xfd7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5178", "*table_entry": "0xf75065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5174", "*table_entry": "0xf89065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd515c", "*table_entry": "0xf72065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5110", "*table_entry": "0xf83065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5128", "*table_entry": "0xfb8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5108", "*table_entry": "0xfaf065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd511c", "*table_entry": "0xf70065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd517c", "*table_entry": "0xf7c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5184", "*table_entry": "0xf7b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "1", "sec": "25", "head": "1", "cyl": "0", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5124", "*table_entry": "0xfc7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd512c", "*table_entry": "0xf71065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5170", "*table_entry": "0xf8a065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5130", "*table_entry": "0xfad065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdbff8", "*table_entry": "0xfa3065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5134", "*table_entry": "0xf73065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess1", "data": {"pid": "10", "father": "4", "nr": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess2", "data": {"physical address": "0xfcc000", "father's address": "0x4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess3", "data": {"start code linear address": "0x10000000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess4", "data": {"from": "0x8000000", "to": "0x10000000", "size": "67108864"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess5", "data": {"size": "16"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfd5000", "to_page_table": "0xfb5000", "from_dir": "0x80", "to_dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfdb000", "to_page_table": "0xfa8000", "from_dir": "0xbc", "to_dir": "0x13c"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdbffc", "*table_entry": "0xf86065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf86000", "new_page": "0xf8c000", "new *table_entry": "0xf8c007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5104", "*table_entry": "0xf85065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf85000", "new_page": "0xf84000", "new *table_entry": "0xf84007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5178", "*table_entry": "0xf75065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf75000", "new_page": "0xf82000", "new *table_entry": "0xf82007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5114", "*table_entry": "0xf81065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf81000", "new_page": "0xf78000", "new *table_entry": "0xf78007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5134", "*table_entry": "0xf73065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf73000", "new_page": "0xf77000", "new *table_entry": "0xf77007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd512c", "*table_entry": "0xf71065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf71000", "new_page": "0xf76000", "new *table_entry": "0xf76007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "10"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8ffc", "*table_entry": "0xf86065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "10"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfb5118", "*table_entry": "0xf79065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf79000", "new_page": "0xf74000", "new *table_entry": "0xf74007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "10"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfb5114", "*table_entry": "0xf81065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "10"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfb5178", "*table_entry": "0xf75065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "253", "sec": "25", "head": "13", "cyl": "15", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "10"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10000000", "page": "0xfa8000", "tmp": "0x0"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x1"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x12bd", "nr[1]": "0x12be", "nr[2]": "0x12bf", "nr[3]": "0x12c0"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "252", "sec": "21", "head": "12", "cyl": "15", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10003000", "page": "0xf85000", "tmp": "0x3000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0xd"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "252", "sec": "33", "head": "12", "cyl": "15", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "253", "sec": "9", "head": "13", "cyl": "15", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10001000", "page": "0xf81000", "tmp": "0x1000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x12c1", "nr[1]": "0x12c2", "nr[2]": "0x12c4", "nr[3]": "0x12c5"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "252", "sec": "29", "head": "12", "cyl": "15", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"can't share": 1}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"address": "0x10002000", "page": "0xf75000", "tmp": "0x2000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"block": "0x9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"nr[0]": "0x12c6", "nr[1]": "0x12c7", "nr[2]": "0x12c8", "nr[3]": "0x12c9"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "BLOCK_HD", "data": {"dev": "0", "block": "253", "sec": "1", "head": "13", "cyl": "15", "nsect": "2"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd515c", "*table_entry": "0xf72065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5174", "*table_entry": "0xf89065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5118", "*table_entry": "0xf79065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd511c", "*table_entry": "0xf70065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess1", "data": {"pid": "11", "father": "4", "nr": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess2", "data": {"physical address": "0xfb5000", "father's address": "0x4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess3", "data": {"start code linear address": "0x10000000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess4", "data": {"from": "0x8000000", "to": "0x10000000", "size": "67108864"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess5", "data": {"size": "16"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfd5000", "to_page_table": "0xfa8000", "from_dir": "0x80", "to_dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NewProcess6", "data": {"nr": "1024", "from_page_table": "0xfdb000", "to_page_table": "0xf86000", "from_dir": "0xbc", "to_dir": "0x13c"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfdbffc", "*table_entry": "0xf8c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf8c000", "new_page": "0xf85000", "new *table_entry": "0xf85007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5104", "*table_entry": "0xf84065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf84000", "new_page": "0xf81000", "new *table_entry": "0xf81007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5114", "*table_entry": "0xf78065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf78000", "new_page": "0xf75000", "new *table_entry": "0xf75007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd515c", "*table_entry": "0xf72065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf72000", "new_page": "0xf74000", "new *table_entry": "0xf74007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5118", "*table_entry": "0xf79065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf79000", "new_page": "0xf73000", "new *table_entry": "0xf73007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf86ffc", "*table_entry": "0xf8c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8118", "*table_entry": "0xf79065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8104", "*table_entry": "0xf84065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8114", "*table_entry": "0xf78065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8178", "*table_entry": "0xf82065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf82000", "new_page": "0xf71000", "new *table_entry": "0xf71007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8138", "*table_entry": "0xfa2065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa2000", "new_page": "0xf6f000", "new *table_entry": "0xf6f007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xf86ff8", "*table_entry": "0xfa3065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfa3000", "new_page": "0xf6e000", "new *table_entry": "0xf6e007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8134", "*table_entry": "0xf77065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf77000", "new_page": "0xf6d000", "new *table_entry": "0xf6d007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa815c", "*table_entry": "0xf72065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8160", "*table_entry": "0xf80065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf80000", "new_page": "0xf6c000", "new *table_entry": "0xf6c007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8110", "*table_entry": "0xf83065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf83000", "new_page": "0xf6b000", "new *table_entry": "0xf6b007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8130", "*table_entry": "0xfad065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfad000", "new_page": "0xf6a000", "new *table_entry": "0xf6a007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa817c", "*table_entry": "0xf7c065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf7c000", "new_page": "0xf69000", "new *table_entry": "0xf69007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "NO_PAGE", "data": {"dynamic": "0x13ffd000", "page": "0xf68000"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8168", "*table_entry": "0xfd7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfd7000", "new_page": "0xf67000", "new *table_entry": "0xf67007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa812c", "*table_entry": "0xf76065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf76000", "new_page": "0xf66000", "new *table_entry": "0xf66007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8154", "*table_entry": "0xf90065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf90000", "new_page": "0xf65000", "new *table_entry": "0xf65007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8184", "*table_entry": "0xf7b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf7b000", "new_page": "0xf64000", "new *table_entry": "0xf64007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xfcb000", "new_page": "0xf63000", "new *table_entry": "0xf63007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "11"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfa8164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"old_page": "0xf8b000", "new_page": "0xf62000", "new *table_entry": "0xf62007"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "Free", "data": {"from": "0x10000000", "size": "0", "dir": "0x100"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5168", "*table_entry": "0xfd7065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5178", "*table_entry": "0xf82065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5164", "*table_entry": "0xf8b065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5174", "*table_entry": "0xf89065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5120", "*table_entry": "0xfcb065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5160", "*table_entry": "0xf80065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5110", "*table_entry": "0xf83065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5128", "*table_entry": "0xfb8065"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"process": "4"}}
+{"module": "memory", "provider": "zt", "time": -1, "event": "COW", "data": {"table_entry": "0xfd5108", "*table_entry": "0xfaf065"}}
