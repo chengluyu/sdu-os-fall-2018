@@ -12,7 +12,7 @@ This is the official repository of Operating System course of Taishan College. T
 * Progress logging
 * Source code archiving
 
-## Repoistory Structure
+## Repository Structure
 
 ```
 |- code: the code of final works
