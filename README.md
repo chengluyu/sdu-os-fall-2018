@@ -4,13 +4,28 @@
 
 # SDU OS Fall 2018
 
+## Introduction
+
 This is the official repository of Operating System course of Taishan College. This repoistory is mainly served these purposes:
 
 * Report submission
 * Progress logging
 * Source code archiving
 
+## Repoistory Structure
+
+```
+|- code: the code of final works
+|-+ final: the final stuff
+| |- slides: the final slides
+| \- reports: the final reports
+|- progress: weekly progress
+|- report: weekly report
+```
+
 ## Submission Guide
+
+> The content of this is no longer applicable since **Jan 21th 2019 01:30 GMT+8 (China Standard Time)**.
 
 You need to fork this repoistory and [keep it up to date](https://help.github.com/articles/syncing-a-fork/).
 
